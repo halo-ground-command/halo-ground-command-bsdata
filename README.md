@@ -25,5 +25,5 @@ to develop, take a look at [Getting Started wiki][]
 * [Getting Started wiki][]
 
 
-[Getting Started wiki]: [https://github.com/BSData/catalogue-development/wiki/Getting-Started)
+[Getting Started wiki]:
 https://github.com/BSData/catalogue-development/wiki/Getting-Started
