@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ns0:gameSystem xmlns:ns0="http://www.battlescribe.net/schema/gameSystemSchema" battleScribeVersion="2.01" id="6631-3ba7-47d8-b3df" name="Halo Ground Command" revision="8">
+<gameSystem xmlns="http://www.battlescribe.net/schema/gameSystemSchema" battleScribeVersion="2.01" id="6631-3ba7-47d8-b3df" name="Halo Ground Command" revision="8">
   <categoryEntries>
     <categoryEntry id="1d19-aba0-3ac5-ad1e" name="Force Commander (BG)" hidden="false">
       <profiles/>
@@ -213,4 +213,4 @@
   <sharedSelectionEntryGroups/>
   <sharedRules/>
   <sharedProfiles/>
-</ns0:gameSystem>
+</gameSystem>
