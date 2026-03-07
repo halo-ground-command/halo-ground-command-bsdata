@@ -1,59 +1,19 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<gameSystem xmlns="http://www.battlescribe.net/schema/gameSystemSchema" battleScribeVersion="2.01" id="6631-3ba7-47d8-b3df" name="Halo Ground Command" revision="8">
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<gameSystem xmlns="http://www.battlescribe.net/schema/gameSystemSchema" battleScribeVersion="2.01" id="6631-3ba7-47d8-b3df" name="Halo Ground Command" revision="8" type="gameSystem">
   <categoryEntries>
-    <categoryEntry id="1d19-aba0-3ac5-ad1e" name="Force Commander (BG)" hidden="false">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-    </categoryEntry>
-    <categoryEntry id="2622-52fa-29f7-96bb" name="Standard Battle Groups" hidden="false">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-    </categoryEntry>
-    <categoryEntry id="7172-8a4b-611a-9f2c" name="Specialist Battle Groups" hidden="false">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-    </categoryEntry>
-    <categoryEntry id="cefc-8143-dc20-9bf8" name="Force Commander (OS)" hidden="false">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-    </categoryEntry>
-    <categoryEntry id="870a-81aa-e07c-3d01" name="Infantry Units" hidden="false">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-    </categoryEntry>
-    <categoryEntry id="0744-a0c8-3431-ff6e" name="Armoured Units" hidden="false">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-    </categoryEntry>
-    <categoryEntry id="7c35-1431-7aeb-f459" name="Flyer Units" hidden="false">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-    </categoryEntry>
-    <categoryEntry id="a1111111-1111-1111-1111-111111111111" name="Character Units" hidden="false">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-    </categoryEntry>
-    <categoryEntry id="a2222222-2222-2222-2222-222222222222" name="Transport Units" hidden="false">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-    </categoryEntry>
+    <categoryEntry id="1d19-aba0-3ac5-ad1e" name="Force Commander (BG)" hidden="false"/>
+    <categoryEntry id="2622-52fa-29f7-96bb" name="Standard Battle Groups" hidden="false"/>
+    <categoryEntry id="7172-8a4b-611a-9f2c" name="Specialist Battle Groups" hidden="false"/>
+    <categoryEntry id="cefc-8143-dc20-9bf8" name="Force Commander (OS)" hidden="false"/>
+    <categoryEntry id="870a-81aa-e07c-3d01" name="Infantry Units" hidden="false"/>
+    <categoryEntry id="0744-a0c8-3431-ff6e" name="Armoured Units" hidden="false"/>
+    <categoryEntry id="7c35-1431-7aeb-f459" name="Flyer Units" hidden="false"/>
+    <categoryEntry id="a1111111-1111-1111-1111-111111111111" name="Character Units" hidden="false"/>
   </categoryEntries>
-  <profiles/>
-  <rules/>
-  <infoLinks/>
   <costTypes>
-    <costType id="points" name="pts" defaultCostLimit="0.0"/>
-    <costType id="Build Rating" name="BR" defaultCostLimit="0.0"/>
-    <costType id="Character" name="C" defaultCostLimit="0.0"/>
+    <costType id="points" name="pts" defaultCostLimit="0"/>
+    <costType id="Build Rating" name="BR" defaultCostLimit="0"/>
+    <costType id="Character" name="C" defaultCostLimit="0"/>
   </costTypes>
   <profileTypes>
     <profileType id="6c7a-4fe3-9ca0-168a" name="Unit Weapons">
@@ -123,94 +83,56 @@
   <forceEntries>
     <forceEntry id="8f40-a247-04c7-df36" name="Battle Group Roster" hidden="false">
       <categoryLinks>
-        <categoryLink id="8f40-1d19" targetId="1d19-aba0-3ac5-ad1e" name="Force Commander" hidden="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
+        <categoryLink id="8f40-1d19" targetId="1d19-aba0-3ac5-ad1e" name="Force Commander (BG)" hidden="false">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="1d19-min-8f40" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="1d19-max-8f40" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="1d19-min-8f40" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="1d19-max-8f40" type="max"/>
           </constraints>
         </categoryLink>
         <categoryLink id="8f40-2622" targetId="2622-52fa-29f7-96bb" name="Standard Battle Groups" hidden="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="2622-min-8f40" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="2622-min-8f40" type="min"/>
           </constraints>
         </categoryLink>
         <categoryLink id="8f40-7172" targetId="7172-8a4b-611a-9f2c" name="Specialist Battle Groups" hidden="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
           <constraints>
-            <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="7172-min-8f40" type="min"/>
+            <constraint field="selections" scope="parent" value="0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="7172-max-8f40" type="max"/>
+            <constraint type="min" value="0" field="selections" scope="parent" shared="false" id="2bcc-9b2f-6615-d094" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
           </constraints>
+          <modifiers>
+            <modifier type="increment" value="1" field="7172-max-8f40">
+              <repeats>
+                <repeat value="1" repeats="1" field="selections" scope="8f40-a247-04c7-df36" childId="2622-52fa-29f7-96bb" shared="true" roundUp="false" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+              </repeats>
+            </modifier>
+          </modifiers>
         </categoryLink>
       </categoryLinks>
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <constraints/>
-      <forceEntries/>
     </forceEntry>
     <forceEntry id="ab5c-724c-54d3-1d4f" name="Open Selection Roster" hidden="false">
       <categoryLinks>
-        <categoryLink id="ab5c-cefc" targetId="cefc-8143-dc20-9bf8" name="Force Commander" hidden="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
+        <categoryLink id="ab5c-cefc" targetId="cefc-8143-dc20-9bf8" name="Force Commander (OS)" hidden="false">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="cefc-min-ab5c" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="cefc-max-ab5c" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="cefc-min-ab5c" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="cefc-max-ab5c" type="max"/>
           </constraints>
         </categoryLink>
         <categoryLink id="ab5c-870a" targetId="870a-81aa-e07c-3d01" name="Infantry Units" hidden="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="870a-min-ab5c" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="870a-min-ab5c" type="min"/>
           </constraints>
         </categoryLink>
         <categoryLink id="ab5c-0744" targetId="0744-a0c8-3431-ff6e" name="Armoured Units" hidden="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
           <constraints>
-            <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="0744-min-ab5c" type="min"/>
+            <constraint field="selections" scope="parent" value="0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="0744-min-ab5c" type="min"/>
           </constraints>
         </categoryLink>
         <categoryLink id="ab5c-7c35" targetId="7c35-1431-7aeb-f459" name="Flyer Units" hidden="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
           <constraints>
-            <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="7c35-min-ab5c" type="min"/>
+            <constraint field="selections" scope="parent" value="0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="7c35-min-ab5c" type="min"/>
           </constraints>
         </categoryLink>
       </categoryLinks>
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <constraints/>
-      <forceEntries/>
     </forceEntry>
   </forceEntries>
-  <selectionEntries/>
-  <entryLinks/>
-  <sharedSelectionEntries/>
-  <sharedSelectionEntryGroups/>
-  <sharedRules/>
-  <sharedProfiles/>
 </gameSystem>
