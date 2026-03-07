@@ -16,7 +16,12 @@
         <categoryLink name="2. Standard Battle Groups" hidden="false" id="433e-3417-0609-59d9" targetId="2622-52fa-29f7-96bb" primary="true"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry type="unit" import="true" name="1. Required" hidden="false" id="be72-7e28-42f6-b93c" collective="false">
+        <selectionEntry type="unit" import="true" name="1. Required units:" hidden="false" id="be72-7e28-42f6-b93c" collective="false" defaultAmount="1">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="0699-4e7e-7ef4-e488-max-min"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0699-4e7e-7ef4-e488-max-max"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5573-7de5-9b3f-c45e"/>
+          </constraints>
           <selectionEntryGroups>
             <selectionEntryGroup name="1.1 Required Command Unit" id="93aa-90bc-3a8e-a146" hidden="false" collective="false" defaultSelectionEntryId="074e-8d96-f012-b827">
               <constraints>
@@ -33,9 +38,9 @@
                 <constraint type="min" value="1" field="selections" scope="parent" shared="false" id="5e7f-a50e-2d08-1c53" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
               </constraints>
               <entryLinks>
-                <entryLink import="true" name="Riflemen - UNSC Army Infantry Unit" hidden="false" id="819e-24f8-78a1-8091" targetId="ff45-8f39-1567-541b" type="selectionEntry"/>
-                <entryLink import="true" name="Fire Support - UNSC Army Weapons Unit" hidden="false" id="976b-8e06-24ac-d249" targetId="0732-8041-d131-50bb" type="selectionEntry"/>
-                <entryLink import="true" name="Marines - Combat-Assault Team" hidden="false" id="2d16-24fb-ea7b-ebd8" targetId="9745-704b-d49d-a2e6" type="selectionEntry"/>
+                <entryLink import="true" name="Riflemen - UNSC Army Infantry Unit" hidden="false" id="819e-24f8-78a1-8091" targetId="ff45-8f39-1567-541b" type="selectionEntry" sortIndex="1"/>
+                <entryLink import="true" name="Fire Support - UNSC Army Weapons Unit" hidden="false" id="976b-8e06-24ac-d249" targetId="0732-8041-d131-50bb" type="selectionEntry" sortIndex="2"/>
+                <entryLink import="true" name="Marines - Combat-Assault Team" hidden="false" id="2d16-24fb-ea7b-ebd8" targetId="9745-704b-d49d-a2e6" type="selectionEntry" sortIndex="3"/>
               </entryLinks>
             </selectionEntryGroup>
             <selectionEntryGroup name="1.2 Required Infantry Unit" id="ea0d-151f-03de-b261" hidden="false" collective="false" defaultSelectionEntryId="2e4b-f923-e905-b32f">
@@ -54,7 +59,12 @@
             <cost name="pts" costTypeId="points" value="0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry type="unit" import="true" name="2. Optional" hidden="false" id="38e7-3d8d-e5b2-339b" collective="false">
+        <selectionEntry type="unit" import="true" name="2. Optional units:" hidden="false" id="38e7-3d8d-e5b2-339b" collective="false">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="da13-4611-de44-deaa-min"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="da13-4611-de44-deaa-max"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e528-1da8-1c0e-3f72"/>
+          </constraints>
           <selectionEntryGroups>
             <selectionEntryGroup name="2.1 Units" id="155d-9609-ba10-2916" hidden="false" collective="false" defaultSelectionEntryId="074e-8d96-f012-b827">
               <constraints>

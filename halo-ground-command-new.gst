@@ -39,12 +39,12 @@
     </forceEntry>
   </forceEntries>
   <costTypes>
-    <costType name="pts" id="points" defaultCostLimit="0"/>
-    <costType name="BR" id="Build Rating" defaultCostLimit="0"/>
-    <costType name="CHA" id="Character" defaultCostLimit="0"/>
-    <costType name="INF BR" id="7ada-7046-0588-6b62" defaultCostLimit="-1"/>
-    <costType name="ARM BR" id="8bde-fb02-2c4d-15ad" defaultCostLimit="-1"/>
-    <costType name="FLY BR" id="ec76-a9ce-7551-737e" defaultCostLimit="-1"/>
+    <costType name="pts" id="points" defaultCostLimit="-1"/>
+    <costType name="BR" id="Build Rating" defaultCostLimit="-1"/>
+    <costType name="CHA" id="Character" defaultCostLimit="-1" hidden="false"/>
+    <costType name="INF BR" id="7ada-7046-0588-6b62" defaultCostLimit="-1" hidden="true"/>
+    <costType name="ARM BR" id="8bde-fb02-2c4d-15ad" defaultCostLimit="-1" hidden="true"/>
+    <costType name="FLY BR" id="ec76-a9ce-7551-737e" defaultCostLimit="-1" hidden="true"/>
   </costTypes>
   <profileTypes>
     <profileType name="Battle Group Summary" id="d3333333-3333-3333-3333-333333333333" hidden="false">
