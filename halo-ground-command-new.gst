@@ -39,16 +39,14 @@
     </forceEntry>
   </forceEntries>
   <costTypes>
-    <costType name="pts" id="points" defaultCostLimit="-1"/>
-    <costType name="BR" id="Build Rating" defaultCostLimit="-1"/>
-    <costType name="CHA" id="Character" defaultCostLimit="-1" hidden="false"/>
-    <costType name="INF BR" id="7ada-7046-0588-6b62" defaultCostLimit="-1" hidden="true"/>
-    <costType name="ARM BR" id="8bde-fb02-2c4d-15ad" defaultCostLimit="-1" hidden="true"/>
-    <costType name="FLY BR" id="ec76-a9ce-7551-737e" defaultCostLimit="-1" hidden="true"/>
+    <costType name="pts" id="points" defaultCostLimit="0"/>
+    <costType name="BR" id="Build Rating" defaultCostLimit="0"/>
+    <costType name="CHA" id="Character" defaultCostLimit="0"/>
   </costTypes>
   <profileTypes>
     <profileType name="Battle Group Summary" id="d3333333-3333-3333-3333-333333333333" hidden="false">
       <characteristicTypes>
+        <characteristicType name="Required Units" id="d333-0001-333--333-"/>
         <characteristicType name="Optional Infantry" id="d333-0002-333--333-"/>
         <characteristicType name="Optional Characters" id="d333-0003-333--333-"/>
         <characteristicType name="Optional Armoured" id="d333-0004-333--333-"/>
@@ -58,43 +56,45 @@
     </profileType>
     <profileType name="Commander Order" id="d2222222-2222-2222-2222-222222222222" hidden="false">
       <characteristicTypes>
-        <characteristicType name="Required Icon" id="51d8-d512-a091-79d7"/>
+        <characteristicType name="Order Name" id="d222-0001-222--222-"/>
+        <characteristicType name="Timing" id="d222-0002-222--222-"/>
         <characteristicType name="Effect" id="d222-0003-222--222-"/>
       </characteristicTypes>
     </profileType>
-    <profileType name="Infantry profile" id="64a0-7713-dd08-5a9d" hidden="false">
+    <profileType name="Element - Infantry" id="64a0-7713-dd08-5a9d" hidden="false">
       <characteristicTypes>
-        <characteristicType name="Elements" id="1c7b-2321-f006-d674"/>
         <characteristicType name="Type" id="3042-33d5-e5ca-996e"/>
         <characteristicType name="Build Rating" id="c2f2-7f0a-32f4-37b7"/>
         <characteristicType name="Move" id="a71c-3460-0bd5-85d1"/>
-        <characteristicType name="React" id="8199-6003-2847-9797"/>
         <characteristicType name="Soak" id="8f99-9d90-0ee7-5d9e"/>
+        <characteristicType name="React" id="8199-6003-2847-9797"/>
         <characteristicType name="Melee" id="7e67-d86f-5377-b64e"/>
         <characteristicType name="Damage" id="7543-31e5-03f6-f160"/>
-        <characteristicType name="Unit Loadouts" id="45af-dd89-bc47-d2af"/>
-        <characteristicType name="Special Rules" id="a5f8-0e11-a6fb-7a7e"/>
+        <characteristicType name="Loadouts" id="45af-dd89-bc47-d2af"/>
+        <characteristicType name="Elements" id="1c7b-2321-f006-d674"/>
       </characteristicTypes>
     </profileType>
-    <profileType name="Vehicle profile" id="0c2c-c815-5df5-7954" hidden="false">
+    <profileType name="Element - Vehicles" id="0c2c-c815-5df5-7954" hidden="false">
       <characteristicTypes>
-        <characteristicType name="Elements" id="8db8-7b95-ebfb-1ed2"/>
         <characteristicType name="Type" id="044c-3a55-d55b-1709"/>
         <characteristicType name="Build Rating" id="ae01-7a1d-b8d7-2e44"/>
         <characteristicType name="Move" id="7e97-86ba-d955-1777"/>
-        <characteristicType name="React" id="ce4c-bb8e-a67d-95d3"/>
         <characteristicType name="Soak" id="3edc-f3a4-a208-a322"/>
+        <characteristicType name="React" id="ce4c-bb8e-a67d-95d3"/>
         <characteristicType name="Impact" id="8fff-2157-7e90-7dd9"/>
         <characteristicType name="Damage" id="337d-b81a-5845-7b97"/>
-        <characteristicType name="Unit Loadouts" id="4e40-04b5-91dd-f57e"/>
-        <characteristicType name="Special Rules" id="1d1b-8751-9336-625a"/>
+        <characteristicType name="Loadouts" id="4e40-04b5-91dd-f57e"/>
+        <characteristicType name="Elements" id="8db8-7b95-ebfb-1ed2"/>
       </characteristicTypes>
     </profileType>
     <profileType name="Force Commander" id="d1111111-1111-1111-1111-111111111111" hidden="false">
       <characteristicTypes>
+        <characteristicType name="Commander Type" id="d111-0001-111--111-"/>
+        <characteristicType name="Faction" id="d111-0002-111--111-"/>
         <characteristicType name="Total Order Dice" id="d111-0003-111--111-"/>
         <characteristicType name="Order Dice Squares" id="d111-0004-111--111-"/>
         <characteristicType name="General Order Dice Squares" id="d111-0005-111--111-"/>
+        <characteristicType name="Unique Ability" id="d111-0006-111--111-"/>
       </characteristicTypes>
     </profileType>
     <profileType name="Unit Weapons" id="6c7a-4fe3-9ca0-168a" hidden="false">
@@ -105,12 +105,6 @@
         <characteristicType name="AT" id="9217-7144-1e94-683d"/>
         <characteristicType name="AA" id="70d2-0215-d018-d05e"/>
         <characteristicType name="Weapon Loadouts" id="7758-d23e-b312-134e"/>
-      </characteristicTypes>
-    </profileType>
-    <profileType name="Commander Unique Ability" id="d18e-1b18-bf35-2845" hidden="false">
-      <characteristicTypes>
-        <characteristicType name="Required Icon" id="c6f2-52f3-ee6a-60c1"/>
-        <characteristicType name="Effect" id="ff85-a3b4-b61b-9ed2"/>
       </characteristicTypes>
     </profileType>
   </profileTypes>
