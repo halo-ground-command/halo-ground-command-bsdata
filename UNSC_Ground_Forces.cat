@@ -5,6 +5,46 @@
       <categoryLinks>
         <categoryLink targetId="1d19-aba0-3ac5-ad1e" id="3d06-5a22-5d36-a0bd" primary="true" name="1. Force Commander"/>
       </categoryLinks>
+      <profiles>
+        <profile name="LIEUTENANT COLONEL - GENERIC COMMANDER" typeId="d1111111-1111-1111-1111-111111111111" typeName="Force Commander" hidden="false" id="64bc-f3b9-74bf-93d8">
+          <characteristics>
+            <characteristic name="Commander Type" typeId="d111-0001-111--111-">GENERIC </characteristic>
+            <characteristic name="Faction" typeId="d111-0002-111--111-">UNSC</characteristic>
+            <characteristic name="Total Order Dice" typeId="d111-0003-111--111-">3</characteristic>
+            <characteristic name="Order Dice Squares" typeId="d111-0004-111--111-">3</characteristic>
+            <characteristic name="General Order Dice Squares" typeId="d111-0005-111--111-">0</characteristic>
+            <characteristic name="Unique Ability" typeId="d111-0006-111--111-">Not One Step Back!: UNSC Commanders are highly trained, highly motivated and an inspiration to the men and women they command.
+Once per Game Turn, a UNSC Force Commander can select one UNSC Infantry Unit to remove an Activation Token. That Unit can then be selected to
+Activate or React later during the game turn. This Order must be issued during a UNSC Player’s Unit Activation.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="LIEUTENANT COLONEL - GENERIC COMMANDER" typeId="d2222222-2222-2222-2222-222222222222" typeName="Commander Order" hidden="false" id="ec39-2800-6bdc-d13a">
+          <characteristics>
+            <characteristic name="Order Name" typeId="d222-0001-222--222-">Mark Your Target</characteristic>
+            <characteristic name="Timing" typeId="d222-0002-222--222-"/>
+            <characteristic name="Effect" typeId="d222-0003-222--222-">Once this Order has been issued the UNSC player may add 2 additional Halo Dice to their Attack Dice Pool (including Melee).
+This Order must be issued prior to any Attack being made.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="LIEUTENANT COLONEL - GENERIC COMMANDER" typeId="d2222222-2222-2222-2222-222222222222" typeName="Commander Order" hidden="false" id="53aa-b781-bce8-e3ca">
+          <characteristics>
+            <characteristic name="Order Name" typeId="d222-0001-222--222-">Take Cover</characteristic>
+            <characteristic name="Timing" typeId="d222-0002-222--222-"/>
+            <characteristic name="Effect" typeId="d222-0003-222--222-">Once this Order has been issued the player may improve the Cover Level of a target Infantry Unit by 1 Level, up to a maximum of
+Heavy Cover. In the case of Armoured or Flying Vehicles improve a Unit’s Soak statistic by 2. This Order must be issued prior to an enemy’s Firing Action
+taking place.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="LIEUTENANT COLONEL - GENERIC COMMANDER" typeId="d2222222-2222-2222-2222-222222222222" typeName="Commander Order" hidden="false" id="af2e-e1de-a2db-f637">
+          <characteristics>
+            <characteristic name="Order Name" typeId="d222-0001-222--222-">Stay Sharp</characteristic>
+            <characteristic name="Timing" typeId="d222-0002-222--222-"/>
+            <characteristic name="Effect" typeId="d222-0003-222--222-">Once this Order has been issued the player may add 2 to a Unit’s Reaction Fire result. This Order must be issued prior to any Reaction
+Fire Test being made
+</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="UNSC Standard Armoured Battlegroup" hidden="false" id="190c-c542-d6a9-c655">
       <categoryLinks>
@@ -145,4 +185,57 @@
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>
+  <sharedRules>
+    <rule name="Suppression (X)" id="e377-b8fd-8965-88b1" hidden="false">
+      <description>Add X to all enemy Suppression Tests.</description>
+    </rule>
+    <rule name="Blast" id="8a02-771a-659e-d0f3" hidden="false">
+      <description>Ignore Terrain when determining Firepower Rating.</description>
+    </rule>
+    <rule name="Cooldown" id="f62b-e162-b4fc-7ef0" hidden="false">
+      <description>May only fire once per Game Turn.</description>
+    </rule>
+    <rule name="Lock On" id="2a64-8fcf-d2f1-f689" hidden="false">
+      <description>Gain +1 Firepower Rating when firing at Long Range.</description>
+    </rule>
+    <rule name="Devastating (FLY)" id="a0fc-d168-257d-d6eb" hidden="false">
+      <description>Gain +1 Firepower Rating shooting at Flying Elements.</description>
+    </rule>
+    <rule name="Move or Fire" id="6593-a21b-2c12-b43c" hidden="false">
+      <description>Element gains a Cooldown Token when it moves.</description>
+    </rule>
+    <rule name="Limited Range" id="3b90-5b6b-7745-8d94" hidden="false">
+      <description>All Long Range attacks are counted as firing into Cover that is 2 Levels higher when determining Firepower Rating.</description>
+    </rule>
+    <rule name="Point Blank" id="f663-466c-d0cf-6652" hidden="false">
+      <description>Gain +1 Firepower Rating shooting at Short Range.</description>
+    </rule>
+    <rule name="Active Overwatch" id="42e8-f373-e1ef-da14" hidden="false">
+      <description>Re-roll failed Reaction Fire Dice. Second result must be accepted.</description>
+    </rule>
+    <rule name="Commanding Presence (12&quot;)" id="ecac-9a86-b929-4466" hidden="false">
+      <description>Increase all friendly Reaction Fire Tests within 12&quot; by 1. Reduce all friendly Suppression Tests within 12&quot; by 1.</description>
+    </rule>
+    <rule name="Heroic Save (5+)" id="ffc8-e403-7311-4d8b" hidden="false">
+      <description>Ignore Damage on a roll of 5 or more.</description>
+    </rule>
+    <rule name="Heroic Save (3+)" id="1669-a5b8-3f86-7326" hidden="false">
+      <description>Ignore Damage on a roll of 3 or more.</description>
+    </rule>
+    <rule name="Battle Hardened (1)" id="fb0f-edeb-4ecf-3315" hidden="false">
+      <description>Re-roll up to 1 failed Melee Attack Dice.</description>
+    </rule>
+    <rule name="Attachment (INF)" id="7f8a-e527-bd71-af6f" hidden="false">
+      <description>This Element may attach to Infantry Units in the same Force, and may be deployed attached to those Units in the same Battle Group.</description>
+    </rule>
+    <rule name="Communications Specialist" id="f396-9aca-a891-aa39" hidden="false">
+      <description>Once per Game Turn, increase the result of a Reaction Fire Test by +2 when within the Commanding Presence Range.</description>
+    </rule>
+    <rule name="Crash Training" id="51e3-366f-2474-df4d" hidden="false">
+      <description>If a transport vehicle is destroyed while this unit is embarked inside, or an Air Support Flyer is destroyed before disembarking this Unit during a Combat Drop Mission, this unit suffers no damage and is deployed as though they disembarked from a transport.</description>
+    </rule>
+    <rule name="Requisite Tank Commander" id="158e-8e5b-ecc5-64b9" hidden="false">
+      <description>The Requisite Tank acts as a Battle Group’s Commander and gains +1 to its React stat, and the Commanding Presence (8&quot;) Loadout for free.</description>
+    </rule>
+  </sharedRules>
 </catalogue>
