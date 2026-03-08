@@ -132,8 +132,30 @@ Activate or React later during the game turn. This Order must be issued during a
             <cost name="BR" costTypeId="Build Rating" value="0"/>
             <cost name="pts" costTypeId="points" value="0"/>
           </costs>
+          <profiles>
+            <profile name="UNSC Mechanised Infantry Battlegroup" typeId="d3333333-3333-3333-3333-333333333333" typeName="Battle Group Summary" hidden="false" id="d8d5-b7c9-bb8d-81e1">
+              <characteristics>
+                <characteristic name="Optional Infantry" typeId="d333-0002-333--333-">Max 6BR</characteristic>
+                <characteristic name="Optional Characters" typeId="d333-0003-333--333-">1</characteristic>
+                <characteristic name="Optional Armoured" typeId="d333-0004-333--333-">Max 8BR</characteristic>
+                <characteristic name="Optional Flyers" typeId="d333-0005-333--333-">Max 6BR</characteristic>
+                <characteristic name="Special Rules" typeId="d333-0006-333--333-">N/A</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
         </selectionEntry>
       </selectionEntries>
+      <profiles>
+        <profile name="UNSC Mechanised Infantry Battlegroup" typeId="d3333333-3333-3333-3333-333333333333" typeName="Battle Group Summary" hidden="false" id="7ffa-0db5-9df1-c290">
+          <characteristics>
+            <characteristic name="Optional Infantry" typeId="d333-0002-333--333-">Max 6BR</characteristic>
+            <characteristic name="Optional Characters" typeId="d333-0003-333--333-">1</characteristic>
+            <characteristic name="Optional Armoured" typeId="d333-0004-333--333-">Max 8BR</characteristic>
+            <characteristic name="Optional Flyers" typeId="d333-0005-333--333-">Max 6BR</characteristic>
+            <characteristic name="Special Rules" typeId="d333-0006-333--333-">N/A</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
     </selectionEntry>
   </selectionEntries>
   <sharedSelectionEntries>
@@ -150,6 +172,29 @@ Activate or React later during the game turn. This Order must be issued during a
         <cost name="ARM BR" typeId="8bde-fb02-2c4d-15ad" value="0"/>
         <cost name="FLY BR" typeId="ec76-a9ce-7551-737e" value="0"/>
       </costs>
+      <profiles>
+        <profile name="Officer - UNSC Army Command Unit" typeId="64a0-7713-dd08-5a9d" typeName="Infantry profile" hidden="false" id="833a-7f9a-8dd3-fa7d">
+          <characteristics>
+            <characteristic name="Elements" typeId="1c7b-2321-f006-d674">1</characteristic>
+            <characteristic name="Type" typeId="3042-33d5-e5ca-996e">CHA INF</characteristic>
+            <characteristic name="Build Rating" typeId="c2f2-7f0a-32f4-37b7">2</characteristic>
+            <characteristic name="Move" typeId="a71c-3460-0bd5-85d1">6/9”</characteristic>
+            <characteristic name="React" typeId="8199-6003-2847-9797">6/8</characteristic>
+            <characteristic name="Soak" typeId="8f99-9d90-0ee7-5d9e">0</characteristic>
+            <characteristic name="Melee" typeId="7e67-d86f-5377-b64e">2</characteristic>
+            <characteristic name="Damage" typeId="7543-31e5-03f6-f160">5</characteristic>
+            <characteristic name="Unit Loadouts" typeId="45af-dd89-bc47-d2af">Attachment (INF): This Element may attach to Infantry Units in the same Force, and may be deployed attached to those Units in the same Battle Group.
+Battle Hardened (1): Re-roll up to 1 failed Melee Attack Dice.
+Commanding Presence (12”): Increase all friendly Reaction Fire Tests within 12” by 1. Reduce all friendly Suppression Tests within 12” by 1.
+Heroic Save (3+): Ignore Damage on a roll of 3 or more.</characteristic>
+            <characteristic name="Special Rules" typeId="a5f8-0e11-a6fb-7a7e">Communications Specialist: Once per Game Turn, increase the result of a Reaction Fire Test by +2 when within the Commanding Presence Range</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Small Arms" id="1c74-d46d-59ca-b546" hidden="false" type="profile" targetId="6fef-c481-70f2-56c9"/>
+        <infoLink name="Frag Grenades" id="5eb7-f047-17e2-dfb0" hidden="false" type="profile" targetId="9382-8533-cc84-2df0"/>
+      </infoLinks>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Marines - Combat-Assault Team" hidden="false" id="9745-704b-d49d-a2e6">
       <categoryLinks>
@@ -189,6 +234,36 @@ Activate or React later during the game turn. This Order must be issued during a
         <cost name="ARM BR" typeId="8bde-fb02-2c4d-15ad" value="0"/>
         <cost name="FLY BR" typeId="ec76-a9ce-7551-737e" value="0"/>
       </costs>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Unit Upgrade" id="43f7-c6ec-ba9b-cc4e" hidden="false" collective="false">
+          <constraints>
+            <constraint type="max" value="2" field="selections" scope="parent" shared="false" id="4705-c585-c55f-5b95" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+            <constraint type="min" value="2" field="selections" scope="parent" shared="false" id="8571-85a4-b4a9-c504" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Heavy Machine Gun" hidden="false" id="9a35-0950-8399-2575" collective="false">
+              <infoLinks>
+                <infoLink name="Heavy Machine Gun" id="aeb5-99a0-6683-5f8b" hidden="false" type="profile" targetId="1e14-c4c1-2ea5-b81e"/>
+              </infoLinks>
+              <costs>
+                <cost name="C" costTypeId="Character" value="0"/>
+                <cost name="BR" costTypeId="Build Rating" value="0"/>
+                <cost name="pts" costTypeId="points" value="0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Rocket Launcher" hidden="false" id="e6d2-91c0-3dac-4368" collective="false">
+              <infoLinks>
+                <infoLink name="Rocket Launchers" id="b3fe-a81e-ff7d-bf6f" hidden="false" type="profile" targetId="d667-63b4-52eb-2f62"/>
+              </infoLinks>
+              <costs>
+                <cost name="C" costTypeId="Character" value="0"/>
+                <cost name="BR" costTypeId="Build Rating" value="0"/>
+                <cost name="pts" costTypeId="points" value="0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedRules>
@@ -244,4 +319,49 @@ Activate or React later during the game turn. This Order must be issued during a
       <description>The Requisite Tank acts as a Battle Group’s Commander and gains +1 to its React stat, and the Commanding Presence (8&quot;) Loadout for free.</description>
     </rule>
   </sharedRules>
+  <sharedProfiles>
+    <profile name="Frag Grenades" typeId="6c7a-4fe3-9ca0-168a" typeName="Unit Weapons" hidden="false" id="9382-8533-cc84-2df0">
+      <characteristics>
+        <characteristic name="Range" typeId="b105-0b2d-c20d-2f77">10”/-</characteristic>
+        <characteristic name="Arc" typeId="dc58-10d6-a1f0-3f09">ALL</characteristic>
+        <characteristic name="AP" typeId="b639-e494-578f-979d">3</characteristic>
+        <characteristic name="AT" typeId="9217-7144-1e94-683d">1</characteristic>
+        <characteristic name="AA" typeId="70d2-0215-d018-d05e">0</characteristic>
+        <characteristic name="Weapon Loadouts" typeId="7758-d23e-b312-134e">Blast: Ignore Terrain when determining Firepower Rating.
+Cooldown: May only fire once per Game Turn.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Small Arms" typeId="6c7a-4fe3-9ca0-168a" typeName="Unit Weapons" hidden="false" id="6fef-c481-70f2-56c9">
+      <characteristics>
+        <characteristic name="Range" typeId="b105-0b2d-c20d-2f77">10/20”</characteristic>
+        <characteristic name="Arc" typeId="dc58-10d6-a1f0-3f09">ALL</characteristic>
+        <characteristic name="AP" typeId="b639-e494-578f-979d">4</characteristic>
+        <characteristic name="AT" typeId="9217-7144-1e94-683d">2</characteristic>
+        <characteristic name="AA" typeId="70d2-0215-d018-d05e">3</characteristic>
+        <characteristic name="Weapon Loadouts" typeId="7758-d23e-b312-134e">Suppression (+1): Add 1 to all enemy Suppression Tests.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Rocket Launchers" typeId="6c7a-4fe3-9ca0-168a" typeName="Unit Weapons" hidden="false" id="d667-63b4-52eb-2f62">
+      <characteristics>
+        <characteristic name="Range" typeId="b105-0b2d-c20d-2f77">12/24”</characteristic>
+        <characteristic name="Arc" typeId="dc58-10d6-a1f0-3f09">ALL</characteristic>
+        <characteristic name="AP" typeId="b639-e494-578f-979d">1</characteristic>
+        <characteristic name="AT" typeId="9217-7144-1e94-683d">6</characteristic>
+        <characteristic name="AA" typeId="70d2-0215-d018-d05e">4</characteristic>
+        <characteristic name="Weapon Loadouts" typeId="7758-d23e-b312-134e">Lock On: Gain +1 Firepower Rating when firing at Long Range
+Devastating (FLY): Gain +1 Firepower Rating shooting at Flying Elements.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Heavy Machine Gun" typeId="6c7a-4fe3-9ca0-168a" typeName="Unit Weapons" hidden="false" id="1e14-c4c1-2ea5-b81e">
+      <characteristics>
+        <characteristic name="Range" typeId="b105-0b2d-c20d-2f77">10/20”</characteristic>
+        <characteristic name="Arc" typeId="dc58-10d6-a1f0-3f09">ALL</characteristic>
+        <characteristic name="AP" typeId="b639-e494-578f-979d">6</characteristic>
+        <characteristic name="AT" typeId="9217-7144-1e94-683d">1</characteristic>
+        <characteristic name="AA" typeId="70d2-0215-d018-d05e">3</characteristic>
+        <characteristic name="Weapon Loadouts" typeId="7758-d23e-b312-134e">Move or Fire: Element gains a Cooldown Token when it moves.
+Suppression (+2): Add 2 to all enemy Suppression Tests.</characteristic>
+      </characteristics>
+    </profile>
+  </sharedProfiles>
 </catalogue>

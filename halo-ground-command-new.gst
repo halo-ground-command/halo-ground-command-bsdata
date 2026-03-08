@@ -49,7 +49,6 @@
   <profileTypes>
     <profileType name="Battle Group Summary" id="d3333333-3333-3333-3333-333333333333" hidden="false">
       <characteristicTypes>
-        <characteristicType name="Required Units" id="d333-0001-333--333-"/>
         <characteristicType name="Optional Infantry" id="d333-0002-333--333-"/>
         <characteristicType name="Optional Characters" id="d333-0003-333--333-"/>
         <characteristicType name="Optional Armoured" id="d333-0004-333--333-"/>
@@ -63,30 +62,32 @@
         <characteristicType name="Effect" id="d222-0003-222--222-"/>
       </characteristicTypes>
     </profileType>
-    <profileType name="Element - Infantry" id="64a0-7713-dd08-5a9d" hidden="false">
+    <profileType name="Infantry profile" id="64a0-7713-dd08-5a9d" hidden="false">
       <characteristicTypes>
+        <characteristicType name="Elements" id="1c7b-2321-f006-d674"/>
         <characteristicType name="Type" id="3042-33d5-e5ca-996e"/>
         <characteristicType name="Build Rating" id="c2f2-7f0a-32f4-37b7"/>
         <characteristicType name="Move" id="a71c-3460-0bd5-85d1"/>
-        <characteristicType name="Soak" id="8f99-9d90-0ee7-5d9e"/>
         <characteristicType name="React" id="8199-6003-2847-9797"/>
+        <characteristicType name="Soak" id="8f99-9d90-0ee7-5d9e"/>
         <characteristicType name="Melee" id="7e67-d86f-5377-b64e"/>
         <characteristicType name="Damage" id="7543-31e5-03f6-f160"/>
-        <characteristicType name="Loadouts" id="45af-dd89-bc47-d2af"/>
-        <characteristicType name="Elements" id="1c7b-2321-f006-d674"/>
+        <characteristicType name="Unit Loadouts" id="45af-dd89-bc47-d2af"/>
+        <characteristicType name="Special Rules" id="a5f8-0e11-a6fb-7a7e"/>
       </characteristicTypes>
     </profileType>
-    <profileType name="Element - Vehicles" id="0c2c-c815-5df5-7954" hidden="false">
+    <profileType name="Vehicle profile" id="0c2c-c815-5df5-7954" hidden="false">
       <characteristicTypes>
+        <characteristicType name="Elements" id="8db8-7b95-ebfb-1ed2"/>
         <characteristicType name="Type" id="044c-3a55-d55b-1709"/>
         <characteristicType name="Build Rating" id="ae01-7a1d-b8d7-2e44"/>
         <characteristicType name="Move" id="7e97-86ba-d955-1777"/>
-        <characteristicType name="Soak" id="3edc-f3a4-a208-a322"/>
         <characteristicType name="React" id="ce4c-bb8e-a67d-95d3"/>
+        <characteristicType name="Soak" id="3edc-f3a4-a208-a322"/>
         <characteristicType name="Impact" id="8fff-2157-7e90-7dd9"/>
         <characteristicType name="Damage" id="337d-b81a-5845-7b97"/>
-        <characteristicType name="Loadouts" id="4e40-04b5-91dd-f57e"/>
-        <characteristicType name="Elements" id="8db8-7b95-ebfb-1ed2"/>
+        <characteristicType name="Unit Loadouts" id="4e40-04b5-91dd-f57e"/>
+        <characteristicType name="Special Rules" id="1d1b-8751-9336-625a"/>
       </characteristicTypes>
     </profileType>
     <profileType name="Force Commander" id="d1111111-1111-1111-1111-111111111111" hidden="false">
