@@ -6,45 +6,51 @@
         <categoryLink targetId="1d19-aba0-3ac5-ad1e" id="3d06-5a22-5d36-a0bd" primary="true" name="1. Force Commander"/>
       </categoryLinks>
       <profiles>
-        <profile name="LIEUTENANT COLONEL - GENERIC COMMANDER" typeId="d1111111-1111-1111-1111-111111111111" typeName="Force Commander" hidden="false" id="64bc-f3b9-74bf-93d8">
+        <profile name="Lieutenant Colonel - Generic Commander" typeId="d1111111-1111-1111-1111-111111111111" typeName="Force Commander" hidden="false" id="64bc-f3b9-74bf-93d8">
           <characteristics>
-            <characteristic name="Commander Type" typeId="d111-0001-111--111-">GENERIC </characteristic>
-            <characteristic name="Faction" typeId="d111-0002-111--111-">UNSC</characteristic>
             <characteristic name="Total Order Dice" typeId="d111-0003-111--111-">3</characteristic>
             <characteristic name="Order Dice Squares" typeId="d111-0004-111--111-">3</characteristic>
             <characteristic name="General Order Dice Squares" typeId="d111-0005-111--111-">0</characteristic>
-            <characteristic name="Unique Ability" typeId="d111-0006-111--111-">Not One Step Back!: UNSC Commanders are highly trained, highly motivated and an inspiration to the men and women they command.
-Once per Game Turn, a UNSC Force Commander can select one UNSC Infantry Unit to remove an Activation Token. That Unit can then be selected to
-Activate or React later during the game turn. This Order must be issued during a UNSC Player’s Unit Activation.</characteristic>
           </characteristics>
         </profile>
-        <profile name="LIEUTENANT COLONEL - GENERIC COMMANDER" typeId="d2222222-2222-2222-2222-222222222222" typeName="Commander Order" hidden="false" id="ec39-2800-6bdc-d13a">
+        <profile name="Mark Your Target:" typeId="d2222222-2222-2222-2222-222222222222" typeName="Commander Order" hidden="false" id="ec39-2800-6bdc-d13a">
           <characteristics>
-            <characteristic name="Order Name" typeId="d222-0001-222--222-">Mark Your Target</characteristic>
-            <characteristic name="Timing" typeId="d222-0002-222--222-"/>
+            <characteristic name="Required Icon" typeId="51d8-d512-a091-79d7">Attack</characteristic>
             <characteristic name="Effect" typeId="d222-0003-222--222-">Once this Order has been issued the UNSC player may add 2 additional Halo Dice to their Attack Dice Pool (including Melee).
 This Order must be issued prior to any Attack being made.</characteristic>
           </characteristics>
         </profile>
-        <profile name="LIEUTENANT COLONEL - GENERIC COMMANDER" typeId="d2222222-2222-2222-2222-222222222222" typeName="Commander Order" hidden="false" id="53aa-b781-bce8-e3ca">
+        <profile name="Take Cover:" typeId="d2222222-2222-2222-2222-222222222222" typeName="Commander Order" hidden="false" id="53aa-b781-bce8-e3ca">
           <characteristics>
-            <characteristic name="Order Name" typeId="d222-0001-222--222-">Take Cover</characteristic>
-            <characteristic name="Timing" typeId="d222-0002-222--222-"/>
+            <characteristic name="Required Icon" typeId="51d8-d512-a091-79d7">Defence</characteristic>
             <characteristic name="Effect" typeId="d222-0003-222--222-">Once this Order has been issued the player may improve the Cover Level of a target Infantry Unit by 1 Level, up to a maximum of
 Heavy Cover. In the case of Armoured or Flying Vehicles improve a Unit’s Soak statistic by 2. This Order must be issued prior to an enemy’s Firing Action
 taking place.</characteristic>
           </characteristics>
         </profile>
-        <profile name="LIEUTENANT COLONEL - GENERIC COMMANDER" typeId="d2222222-2222-2222-2222-222222222222" typeName="Commander Order" hidden="false" id="af2e-e1de-a2db-f637">
+        <profile name="Stay Sharp:" typeId="d2222222-2222-2222-2222-222222222222" typeName="Commander Order" hidden="false" id="af2e-e1de-a2db-f637">
           <characteristics>
-            <characteristic name="Order Name" typeId="d222-0001-222--222-">Stay Sharp</characteristic>
-            <characteristic name="Timing" typeId="d222-0002-222--222-"/>
+            <characteristic name="Required Icon" typeId="51d8-d512-a091-79d7">Command</characteristic>
             <characteristic name="Effect" typeId="d222-0003-222--222-">Once this Order has been issued the player may add 2 to a Unit’s Reaction Fire result. This Order must be issued prior to any Reaction
-Fire Test being made
-</characteristic>
+Fire Test being made</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Not One Step Back!:" typeId="d18e-1b18-bf35-2845" typeName="Commander Unique Ability" hidden="false" id="6656-ddb4-8bbb-ed18">
+          <characteristics>
+            <characteristic name="Required Icon" typeId="c6f2-52f3-ee6a-60c1">2 Command</characteristic>
+            <characteristic name="Effect" typeId="ff85-a3b4-b61b-9ed2">Once per Game Turn, a UNSC Force Commander can select one UNSC Infantry Unit to remove an Activation Token. That Unit can then be selected to
+Activate or React later during the game turn. This Order must be issued during a UNSC Player’s Unit Activation.</characteristic>
           </characteristics>
         </profile>
       </profiles>
+      <costs>
+        <cost name="pts" typeId="points" value="0"/>
+        <cost name="BR" typeId="Build Rating" value="0"/>
+        <cost name="CHA" typeId="Character" value="0"/>
+        <cost name="INF BR" typeId="7ada-7046-0588-6b62" value="0"/>
+        <cost name="ARM BR" typeId="8bde-fb02-2c4d-15ad" value="0"/>
+        <cost name="FLY BR" typeId="ec76-a9ce-7551-737e" value="0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="UNSC Standard Armoured Battlegroup" hidden="false" id="190c-c542-d6a9-c655">
       <categoryLinks>

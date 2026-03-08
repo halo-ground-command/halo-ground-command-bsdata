@@ -59,8 +59,7 @@
     </profileType>
     <profileType name="Commander Order" id="d2222222-2222-2222-2222-222222222222" hidden="false">
       <characteristicTypes>
-        <characteristicType name="Order Name" id="d222-0001-222--222-"/>
-        <characteristicType name="Timing" id="d222-0002-222--222-"/>
+        <characteristicType name="Required Icon" id="51d8-d512-a091-79d7"/>
         <characteristicType name="Effect" id="d222-0003-222--222-"/>
       </characteristicTypes>
     </profileType>
@@ -92,12 +91,9 @@
     </profileType>
     <profileType name="Force Commander" id="d1111111-1111-1111-1111-111111111111" hidden="false">
       <characteristicTypes>
-        <characteristicType name="Commander Type" id="d111-0001-111--111-"/>
-        <characteristicType name="Faction" id="d111-0002-111--111-"/>
         <characteristicType name="Total Order Dice" id="d111-0003-111--111-"/>
         <characteristicType name="Order Dice Squares" id="d111-0004-111--111-"/>
         <characteristicType name="General Order Dice Squares" id="d111-0005-111--111-"/>
-        <characteristicType name="Unique Ability" id="d111-0006-111--111-"/>
       </characteristicTypes>
     </profileType>
     <profileType name="Unit Weapons" id="6c7a-4fe3-9ca0-168a" hidden="false">
@@ -108,6 +104,12 @@
         <characteristicType name="AT" id="9217-7144-1e94-683d"/>
         <characteristicType name="AA" id="70d2-0215-d018-d05e"/>
         <characteristicType name="Weapon Loadouts" id="7758-d23e-b312-134e"/>
+      </characteristicTypes>
+    </profileType>
+    <profileType name="Commander Unique Ability" id="d18e-1b18-bf35-2845" hidden="false">
+      <characteristicTypes>
+        <characteristicType name="Required Icon" id="c6f2-52f3-ee6a-60c1"/>
+        <characteristicType name="Effect" id="ff85-a3b4-b61b-9ed2"/>
       </characteristicTypes>
     </profileType>
   </profileTypes>
