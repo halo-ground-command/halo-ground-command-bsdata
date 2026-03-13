@@ -1,12 +1,550 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" library="false" id="5744-UNSC-c952" name="UNSC_Ground_Forces" gameSystemId="sys-6399-a82f-f411-a347" gameSystemRevision="1" revision="1" battleScribeVersion="2.03" type="catalogue"><selectionEntries><selectionEntry type="unit" import="true" name="LIEUTENANT COLONEL - GENERIC COMMANDER" hidden="false" id="2e55-c546-5d35-e7a8"><categoryLinks><categoryLink targetId="1d19-aba0-3ac5-ad1e" id="3d06-5a22-5d36-a0bd" primary="true" name="1. Force Commander" /></categoryLinks><costs><cost name="pts" typeId="points" value="0" /><cost name="BR" typeId="Build Rating" value="0" /><cost name="CHA" typeId="Character" value="0" /><cost name="INF BR" typeId="7ada-7046-0588-6b62" value="0" /><cost name="ARM BR" typeId="8bde-fb02-2c4d-15ad" value="0" /><cost name="FLY BR" typeId="ec76-a9ce-7551-737e" value="0" /></costs><profiles><profile name="Lieutenant Colonel - Generic Commander" typeId="d1111111-1111-1111-1111-111111111111" typeName="Force Commander" hidden="false" id="64bc-f3b9-74bf-93d8"><characteristics><characteristic name="Total Order Dice" typeId="d111-0003-111--111-">3</characteristic><characteristic name="Order Dice Squares" typeId="d111-0004-111--111-">3</characteristic><characteristic name="General Order Dice Squares" typeId="d111-0005-111--111-">0</characteristic></characteristics></profile><profile name="Mark Your Target:" typeId="d2222222-2222-2222-2222-222222222222" typeName="Commander Order" hidden="false" id="ec39-2800-6bdc-d13a"><characteristics><characteristic name="Required Icon" typeId="51d8-d512-a091-79d7">Attack</characteristic><characteristic name="Effect" typeId="d222-0003-222--222-">Once this Order has been issued the UNSC player may add 2 additional Halo Dice to their Attack Dice Pool (including Melee).
-This Order must be issued prior to any Attack being made.</characteristic></characteristics></profile><profile name="Take Cover:" typeId="d2222222-2222-2222-2222-222222222222" typeName="Commander Order" hidden="false" id="53aa-b781-bce8-e3ca"><characteristics><characteristic name="Required Icon" typeId="51d8-d512-a091-79d7">Defence</characteristic><characteristic name="Effect" typeId="d222-0003-222--222-">Once this Order has been issued the player may improve the Cover Level of a target Infantry Unit by 1 Level, up to a maximum of Heavy Cover. In the case of Armoured or Flying Vehicles improve a Unit’s Soak statistic by 2. This Order must be issued prior to an enemy’s Firing Action taking place.</characteristic></characteristics></profile><profile name="Stay Sharp:" typeId="d2222222-2222-2222-2222-222222222222" typeName="Commander Order" hidden="false" id="af2e-e1de-a2db-f637"><characteristics><characteristic name="Required Icon" typeId="51d8-d512-a091-79d7">Command</characteristic><characteristic name="Effect" typeId="d222-0003-222--222-">Once this Order has been issued the player may add 2 to a Unit’s Reaction Fire result. This Order must be issued prior to any Reaction Fire Test being made.</characteristic></characteristics></profile><profile name="Not One Step Back!:" typeId="d18e-1b18-bf35-2845" typeName="Commander Unique Ability" hidden="false" id="6656-ddb4-8bbb-ed18"><characteristics><characteristic name="Required Icon" typeId="c6f2-52f3-ee6a-60c1">2 Command</characteristic><characteristic name="Effect" typeId="ff85-a3b4-b61b-9ed2">Once per Game Turn, a UNSC Force Commander can select one UNSC Infantry Unit to remove an Activation Token. That Unit can then be selected to Activate or React later during the game turn. This Order must be issued during a UNSC Player’s Unit Activation.</characteristic></characteristics></profile></profiles></selectionEntry><selectionEntry type="unit" import="true" name="UNSC Standard Armoured Battlegroup" hidden="false" id="190c-c542-d6a9-c655"><categoryLinks><categoryLink targetId="2622-52fa-29f7-96bb" id="8311-882e-fcdc-c9c1" primary="true" name="2. Standard Battle Groups" /></categoryLinks><infoLinks><infoLink name="Standard Armoured Battlegroup Summary" id="i-bgarm-sum" hidden="false" type="profile" targetId="4bbf-0ab4-a111-c290" /><infoLink name="Requisite Tank Commander" id="i-bgarm-rule" hidden="false" type="rule" targetId="f4c6-2c9b-a8d4-f61c" /></infoLinks></selectionEntry><selectionEntry type="unit" import="true" name="UNSC Mechanised Infantry Battlegroup" hidden="false" id="2db3-8915-2519-f394"><categoryLinks><categoryLink name="2. Standard Battle Groups" hidden="false" id="433e-3417-0609-59d9" targetId="2622-52fa-29f7-96bb" primary="true" /></categoryLinks><infoLinks><infoLink name="Mechanised Infantry Battlegroup Summary" id="i-bgmech-sum" hidden="false" type="profile" targetId="7ffa-0db5-9df1-c290" /></infoLinks><selectionEntries><selectionEntry type="unit" import="true" name="1. Required" hidden="false" id="be72-7e28-42f6-b93c" collective="false"><selectionEntryGroups><selectionEntryGroup name="1.1 Required Command Unit" id="93aa-90bc-3a8e-a146" hidden="false" collective="false"><constraints><constraint type="max" value="1" field="selections" scope="parent" shared="false" id="93aa-90bc-3a8e-a146-max" percentValue="false" includeChildSelections="false" includeChildForces="false" /><constraint type="min" value="1" field="selections" scope="parent" shared="false" id="93aa-90bc-3a8e-a146-min" percentValue="false" includeChildSelections="false" includeChildForces="false" /></constraints><entryLinks><entryLink import="true" name="Officer - UNSC Army Command Unit" hidden="false" id="074e-8d96-f012-b827" targetId="bf34-cfad-df84-45c0" type="selectionEntry" /></entryLinks></selectionEntryGroup><selectionEntryGroup name="1.2 Required Infantry Unit" id="ea0d-151f-03de-b261" hidden="false" collective="false"><constraints><constraint type="max" value="1" field="selections" scope="parent" shared="false" id="ea0d-151f-03de-b261-max" percentValue="false" includeChildSelections="false" includeChildForces="false" /><constraint type="min" value="1" field="selections" scope="parent" shared="false" id="ea0d-151f-03de-b261-min" percentValue="false" includeChildSelections="false" includeChildForces="false" /></constraints><entryLinks><entryLink import="true" name="Riflemen - UNSC Army Infantry Unit" hidden="false" id="7cdf-36ae-c2e7-213b" targetId="ff45-8f39-1567-541b" type="selectionEntry" /></entryLinks></selectionEntryGroup><selectionEntryGroup name="1.3 Required Infantry Unit" id="6e64-7c5d-c06a-27ab" hidden="false" collective="false"><constraints><constraint type="max" value="1" field="selections" scope="parent" shared="false" id="6e64-7c5d-c06a-27ab-max" percentValue="false" includeChildSelections="false" includeChildForces="false" /><constraint type="min" value="1" field="selections" scope="parent" shared="false" id="6e64-7c5d-c06a-27ab-min" percentValue="false" includeChildSelections="false" includeChildForces="false" /></constraints><entryLinks><entryLink import="true" name="Riflemen - UNSC Army Infantry Unit" hidden="false" id="819e-24f8-78a1-8091" targetId="ff45-8f39-1567-541b" type="selectionEntry" /><entryLink import="true" name="Fire Support - UNSC Army Weapons Unit" hidden="false" id="976b-8e06-24ac-d249" targetId="0732-8041-d131-50bb" type="selectionEntry" /><entryLink import="true" name="Marines - Combat-Assault Team" hidden="false" id="2d16-24fb-ea7b-ebd8" targetId="9745-704b-d49d-a2e6" type="selectionEntry" /></entryLinks></selectionEntryGroup></selectionEntryGroups><costs><cost name="pts" typeId="points" value="0" /><cost name="BR" typeId="Build Rating" value="0" /><cost name="CHA" typeId="Character" value="0" /><cost name="INF BR" typeId="7ada-7046-0588-6b62" value="0" /><cost name="ARM BR" typeId="8bde-fb02-2c4d-15ad" value="0" /><cost name="FLY BR" typeId="ec76-a9ce-7551-737e" value="0" /></costs></selectionEntry><selectionEntry type="unit" import="true" name="2. Optional" hidden="false" id="38e7-3d8d-e5b2-339b" collective="false"><selectionEntryGroups><selectionEntryGroup name="2.1 Units" id="155d-9609-ba10-2916" hidden="false" collective="false"><constraints><constraint type="max" value="1" field="Character" scope="parent" shared="false" id="f4e2-e198-c150-7043" percentValue="false" includeChildSelections="false" includeChildForces="false" /><constraint type="max" value="6" field="7ada-7046-0588-6b62" scope="parent" shared="false" id="b9b1-ffb7-09ba-b107" percentValue="false" includeChildSelections="false" includeChildForces="false" /><constraint type="max" value="8" field="8bde-fb02-2c4d-15ad" scope="parent" shared="false" id="a740-9a76-c277-b195" percentValue="false" includeChildSelections="false" includeChildForces="false" /><constraint type="max" value="6" field="ec76-a9ce-7551-737e" scope="parent" shared="false" id="dc88-93e3-aa41-4af1" percentValue="false" includeChildSelections="false" includeChildForces="false" /></constraints><entryLinks><entryLink import="true" name="Officer - UNSC Army Command Unit" hidden="false" id="02f7-4211-010b-8174" targetId="bf34-cfad-df84-45c0" type="selectionEntry" /><entryLink import="true" name="Riflemen - UNSC Army Infantry Unit" hidden="false" id="2943-867b-2de1-28bb" targetId="ff45-8f39-1567-541b" type="selectionEntry" /><entryLink import="true" name="Marines - Combat-Assault Team" hidden="false" id="da18-79bf-36e0-66cb" targetId="9745-704b-d49d-a2e6" type="selectionEntry" /><entryLink import="true" name="Fire Support - UNSC Army Weapons Unit" hidden="false" id="9458-7864-fc5b-a13c" targetId="0732-8041-d131-50bb" type="selectionEntry" /></entryLinks></selectionEntryGroup></selectionEntryGroups><costs><cost name="pts" typeId="points" value="0" /><cost name="BR" typeId="Build Rating" value="0" /><cost name="CHA" typeId="Character" value="0" /><cost name="INF BR" typeId="7ada-7046-0588-6b62" value="0" /><cost name="ARM BR" typeId="8bde-fb02-2c4d-15ad" value="0" /><cost name="FLY BR" typeId="ec76-a9ce-7551-737e" value="0" /></costs></selectionEntry></selectionEntries></selectionEntry></selectionEntries><sharedSelectionEntries><selectionEntry type="unit" import="true" name="Officer - UNSC Army Command Unit" hidden="false" id="bf34-cfad-df84-45c0"><categoryLinks><categoryLink targetId="a1111111-1111-1111-1111-111111111111" id="e0a6-a912-6dee-a040" primary="true" name="4. Character Units" /><categoryLink targetId="870a-81aa-e07c-3d01" id="01ae-868d-8681-a805" primary="false" name="5. Infantry Units" /></categoryLinks><costs><cost name="pts" typeId="points" value="80" /><cost name="BR" typeId="Build Rating" value="2" /><cost name="CHA" typeId="Character" value="1" /><cost name="INF BR" typeId="7ada-7046-0588-6b62" value="2" /><cost name="ARM BR" typeId="8bde-fb02-2c4d-15ad" value="0" /><cost name="FLY BR" typeId="ec76-a9ce-7551-737e" value="0" /></costs><infoLinks><infoLink name="Officer - UNSC Army Command Unit" id="off-prof" hidden="false" type="profile" targetId="833a-7f9a-8dd3-fa7d" /><infoLink name="Small Arms" id="off-sa" hidden="false" type="profile" targetId="6fef-c481-70f2-56c9" /><infoLink name="Frag Grenades" id="off-fg" hidden="false" type="profile" targetId="9382-8533-cc84-2df0" /><infoLink name="Attachment (INF)" id="off-r1" hidden="false" type="rule" targetId="f921-31dd-0bda-f2aa" /><infoLink name="Battle Hardened (1)" id="off-r2" hidden="false" type="rule" targetId="fb0f-edeb-4ecf-3315" /><infoLink name="Commanding Presence (12&quot;)" id="off-r3" hidden="false" type="rule" targetId="ecac-9a86-b929-4466" /><infoLink name="Heroic Save (3+)" id="off-r4" hidden="false" type="rule" targetId="1669-a5b8-3f86-7326" /><infoLink name="Communications Specialist" id="off-r5" hidden="false" type="rule" targetId="469c-f01b-e0a3-cc38" /></infoLinks></selectionEntry><selectionEntry type="unit" import="true" name="Riflemen - UNSC Army Infantry Unit" hidden="false" id="ff45-8f39-1567-541b"><categoryLinks><categoryLink targetId="870a-81aa-e07c-3d01" id="7bef-02e4-63f4-4e0c" primary="true" name="5. Infantry Units" /></categoryLinks><costs><cost name="pts" typeId="points" value="80" /><cost name="BR" typeId="Build Rating" value="1" /><cost name="CHA" typeId="Character" value="0" /><cost name="INF BR" typeId="7ada-7046-0588-6b62" value="1" /><cost name="ARM BR" typeId="8bde-fb02-2c4d-15ad" value="0" /><cost name="FLY BR" typeId="ec76-a9ce-7551-737e" value="0" /></costs><infoLinks><infoLink name="Riflemen - UNSC Army Infantry Unit" id="rif-prof" hidden="false" type="profile" targetId="fb4c-a246-a334-a0b0" /><infoLink name="Small Arms" id="rif-sa" hidden="false" type="profile" targetId="c16c-3e2e-a9c0-4d3a" /><infoLink name="Frag Grenades" id="rif-fg" hidden="false" type="profile" targetId="9382-8533-cc84-2df0" /></infoLinks><selectionEntryGroups><selectionEntryGroup name="Special Weapon Upgrade" id="rifle-upg-special" hidden="false" collective="false"><constraints><constraint type="min" value="0" field="selections" scope="parent" shared="false" id="rifle-upg-special-min" percentValue="false" includeChildSelections="false" includeChildForces="false" /><constraint type="max" value="1" field="selections" scope="parent" shared="false" id="rifle-upg-special-max" percentValue="false" includeChildSelections="false" includeChildForces="false" /></constraints><selectionEntries><selectionEntry type="upgrade" import="true" name="Rocket Launchers" hidden="false" id="rifle-rl"><costs><cost name="pts" typeId="points" value="15" /><cost name="BR" typeId="Build Rating" value="0" /><cost name="CHA" typeId="Character" value="0" /><cost name="INF BR" typeId="7ada-7046-0588-6b62" value="0" /><cost name="ARM BR" typeId="8bde-fb02-2c4d-15ad" value="0" /><cost name="FLY BR" typeId="ec76-a9ce-7551-737e" value="0" /></costs><infoLinks><infoLink name="Rocket Launchers" id="rifle-rl-link" hidden="false" type="profile" targetId="d667-63b4-52eb-2f62" /></infoLinks></selectionEntry></selectionEntries></selectionEntryGroup><selectionEntryGroup name="Team Leader Upgrade" id="rifle-upg-leader" hidden="false" collective="false"><constraints><constraint type="min" value="0" field="selections" scope="parent" shared="false" id="rifle-upg-leader-min" percentValue="false" includeChildSelections="false" includeChildForces="false" /><constraint type="max" value="1" field="selections" scope="parent" shared="false" id="rifle-upg-leader-max" percentValue="false" includeChildSelections="false" includeChildForces="false" /></constraints><entryLinks><entryLink import="true" name="Army Corporal" hidden="false" id="rifle-corp-link" targetId="1bb1-2a63-8f74-c0aa" type="selectionEntry" /></entryLinks></selectionEntryGroup></selectionEntryGroups></selectionEntry><selectionEntry type="unit" import="true" name="Marines - Combat-Assault Team" hidden="false" id="9745-704b-d49d-a2e6"><categoryLinks><categoryLink targetId="870a-81aa-e07c-3d01" id="118e-46ab-4153-a854" primary="true" name="5. Infantry Units" /></categoryLinks><costs><cost name="pts" typeId="points" value="150" /><cost name="BR" typeId="Build Rating" value="2" /><cost name="CHA" typeId="Character" value="0" /><cost name="INF BR" typeId="7ada-7046-0588-6b62" value="2" /><cost name="ARM BR" typeId="8bde-fb02-2c4d-15ad" value="0" /><cost name="FLY BR" typeId="ec76-a9ce-7551-737e" value="0" /></costs><infoLinks><infoLink name="Marines - Combat-Assault Team" id="mar-prof" hidden="false" type="profile" targetId="e2f1-bd1f-6b77-2a89" /><infoLink name="Small Arms" id="mar-sa" hidden="false" type="profile" targetId="5c7b-472b-0644-a4ef" /><infoLink name="Frag Grenades" id="mar-fg" hidden="false" type="profile" targetId="5b5c-4386-c766-88ea" /><infoLink name="Heroic Save (5+)" id="mar-r1" hidden="false" type="rule" targetId="ffc8-e403-7311-4d8b" /><infoLink name="Crash Training" id="mar-r2" hidden="false" type="rule" targetId="b3b1-6ec1-0d49-92bd" /></infoLinks></selectionEntry><selectionEntry type="unit" import="true" name="Fire Support - UNSC Army Weapons Unit" hidden="false" id="0732-8041-d131-50bb"><categoryLinks><categoryLink targetId="870a-81aa-e07c-3d01" id="8992-3a97-b3d7-6c3d" primary="true" name="5. Infantry Units" /></categoryLinks><costs><cost name="pts" typeId="points" value="120" /><cost name="BR" typeId="Build Rating" value="2" /><cost name="CHA" typeId="Character" value="0" /><cost name="INF BR" typeId="7ada-7046-0588-6b62" value="2" /><cost name="ARM BR" typeId="8bde-fb02-2c4d-15ad" value="0" /><cost name="FLY BR" typeId="ec76-a9ce-7551-737e" value="0" /></costs><infoLinks><infoLink name="Fire Support - UNSC Army Weapons Unit" id="fs-prof" hidden="false" type="profile" targetId="6b42-718c-80d0-1442" /><infoLink name="Small Arms" id="fs-sa" hidden="false" type="profile" targetId="c16c-3e2e-a9c0-4d3a" /><infoLink name="Frag Grenades" id="fs-fg" hidden="false" type="profile" targetId="9382-8533-cc84-2df0" /><infoLink name="Active Overwatch" id="fs-r1" hidden="false" type="rule" targetId="42e8-f373-e1ef-da14" /></infoLinks><selectionEntryGroups><selectionEntryGroup name="Weapons Team Choice" id="fs-upg-weaponteam" hidden="false" collective="false"><constraints><constraint type="min" value="1" field="selections" scope="parent" shared="false" id="fs-upg-weaponteam-min" percentValue="false" includeChildSelections="false" includeChildForces="false" /><constraint type="max" value="1" field="selections" scope="parent" shared="false" id="fs-upg-weaponteam-max" percentValue="false" includeChildSelections="false" includeChildForces="false" /></constraints><selectionEntries><selectionEntry type="upgrade" import="true" name="2 Rocket Launchers" hidden="false" id="fs-2rl"><costs><cost name="pts" typeId="points" value="0" /><cost name="BR" typeId="Build Rating" value="0" /><cost name="CHA" typeId="Character" value="0" /><cost name="INF BR" typeId="7ada-7046-0588-6b62" value="0" /><cost name="ARM BR" typeId="8bde-fb02-2c4d-15ad" value="0" /><cost name="FLY BR" typeId="ec76-a9ce-7551-737e" value="0" /></costs><infoLinks><infoLink name="Rocket Launchers" id="fs-2rl-link" hidden="false" type="profile" targetId="d667-63b4-52eb-2f62" /></infoLinks></selectionEntry><selectionEntry type="upgrade" import="true" name="2 Heavy Machine Guns" hidden="false" id="fs-2hmg"><costs><cost name="pts" typeId="points" value="0" /><cost name="BR" typeId="Build Rating" value="0" /><cost name="CHA" typeId="Character" value="0" /><cost name="INF BR" typeId="7ada-7046-0588-6b62" value="0" /><cost name="ARM BR" typeId="8bde-fb02-2c4d-15ad" value="0" /><cost name="FLY BR" typeId="ec76-a9ce-7551-737e" value="0" /></costs><infoLinks><infoLink name="Heavy Machine Gun" id="fs-2hmg-link" hidden="false" type="profile" targetId="5ea6-31f9-51f8-0f2c" /></infoLinks></selectionEntry></selectionEntries></selectionEntryGroup><selectionEntryGroup name="Team Leader Upgrade" id="fs-upg-leader" hidden="false" collective="false"><constraints><constraint type="min" value="0" field="selections" scope="parent" shared="false" id="fs-upg-leader-min" percentValue="false" includeChildSelections="false" includeChildForces="false" /><constraint type="max" value="1" field="selections" scope="parent" shared="false" id="fs-upg-leader-max" percentValue="false" includeChildSelections="false" includeChildForces="false" /></constraints><entryLinks><entryLink import="true" name="Army Corporal" hidden="false" id="fs-corp-link" targetId="1bb1-2a63-8f74-c0aa" type="selectionEntry" /></entryLinks></selectionEntryGroup></selectionEntryGroups></selectionEntry><selectionEntry type="unit" import="true" name="Army Corporal" hidden="false" id="1bb1-2a63-8f74-c0aa"><categoryLinks><categoryLink targetId="870a-81aa-e07c-3d01" id="corp-inf" primary="true" name="5. Infantry Units" /></categoryLinks><costs><cost name="pts" typeId="points" value="10" /><cost name="BR" typeId="Build Rating" value="0" /><cost name="CHA" typeId="Character" value="0" /><cost name="INF BR" typeId="7ada-7046-0588-6b62" value="0" /><cost name="ARM BR" typeId="8bde-fb02-2c4d-15ad" value="0" /><cost name="FLY BR" typeId="ec76-a9ce-7551-737e" value="0" /></costs><infoLinks><infoLink name="Corporal - UNSC Army Riflemen Team Leader" id="corp-prof" hidden="false" type="profile" targetId="d2bf-7a91-7810-36a2" /><infoLink name="Small Arms" id="corp-sa" hidden="false" type="profile" targetId="c7a1-541e-88b0-c0de" /><infoLink name="Frag Grenades" id="corp-fg" hidden="false" type="profile" targetId="5b5c-4386-c766-88ea" /><infoLink name="Heroic Save (5+)" id="corp-r1" hidden="false" type="rule" targetId="ffc8-e403-7311-4d8b" /></infoLinks></selectionEntry></sharedSelectionEntries><sharedRules><rule name="Suppression (X)" id="e377-b8fd-8965-88b1" hidden="false"><description>Add X to all enemy Suppression Tests.</description></rule><rule name="Blast" id="8a02-771a-659e-d0f3" hidden="false"><description>Ignore Terrain when determining Firepower Rating.</description></rule><rule name="Cooldown" id="f62b-e162-b4fc-7ef0" hidden="false"><description>May only fire once per Game Turn.</description></rule><rule name="Lock On" id="2a64-8fcf-d2f1-f689" hidden="false"><description>Gain +1 Firepower Rating when firing at Long Range.</description></rule><rule name="Devastating (FLY)" id="a0fc-d168-257d-d6eb" hidden="false"><description>Gain +1 Firepower Rating shooting at Flying Elements.</description></rule><rule name="Move or Fire" id="6593-a21b-2c12-b43c" hidden="false"><description>Element gains a Cooldown Token when it moves.</description></rule><rule name="Limited Range" id="3b90-5b6b-7745-8d94" hidden="false"><description>All Long Range attacks are counted as firing into Cover that is 2 Levels higher when determining Firepower Rating.</description></rule><rule name="Point Blank" id="f663-466c-d0cf-6652" hidden="false"><description>Gain +1 Firepower Rating shooting at Short Range.</description></rule><rule name="Active Overwatch" id="42e8-f373-e1ef-da14" hidden="false"><description>Re-roll failed Reaction Fire Dice. Second result must be accepted.</description></rule><rule name="Commanding Presence (12&quot;)" id="ecac-9a86-b929-4466" hidden="false"><description>Increase all friendly Reaction Fire Tests within 12" by 1. Reduce all friendly Suppression Tests within 12" by 1.</description></rule><rule name="Heroic Save (5+)" id="ffc8-e403-7311-4d8b" hidden="false"><description>Ignore Damage on a roll of 5 or more.</description></rule><rule name="Heroic Save (3+)" id="1669-a5b8-3f86-7326" hidden="false"><description>Ignore Damage on a roll of 3 or more.</description></rule><rule name="Battle Hardened (1)" id="fb0f-edeb-4ecf-3315" hidden="false"><description>Re-roll up to 1 failed Melee Attack Dice.</description></rule><rule name="Attachment (INF)" id="f921-31dd-0bda-f2aa" hidden="false"><description>This Element may attach to Infantry Units in the same Force, and may be deployed attached to those Units in the same Battle Group.</description></rule><rule name="Communications Specialist" id="469c-f01b-e0a3-cc38" hidden="false"><description>Once per Game Turn, increase the result of a Reaction Fire Test by +2 when within the Commanding Presence Range.</description></rule><rule name="Crash Training" id="b3b1-6ec1-0d49-92bd" hidden="false"><description>If a transport vehicle is destroyed while this unit is embarked inside, or an Air Support Flyer is destroyed before disembarking this Unit during a Combat Drop Mission, this unit suffers no damage and is deployed as though they disembarked from a transport.</description></rule><rule name="Requisite Tank Commander" id="f4c6-2c9b-a8d4-f61c" hidden="false"><description>The Requisite Tank acts as a Battle Group’s Commander and gains +1 to its React stat, and the Commanding Presence (8") Loadout for free.</description></rule></sharedRules><sharedProfiles><profile name="Mechanised Infantry Battlegroup Summary" typeId="d3333333-3333-3333-3333-333333333333" typeName="Battle Group Summary" hidden="false" id="7ffa-0db5-9df1-c290"><characteristics><characteristic name="Optional Infantry" typeId="d333-0002-333--333-">Max 6BR</characteristic><characteristic name="Optional Characters" typeId="d333-0003-333--333-">1</characteristic><characteristic name="Optional Armoured" typeId="d333-0004-333--333-">Max 8BR</characteristic><characteristic name="Optional Flyers" typeId="d333-0005-333--333-">Max 6BR</characteristic><characteristic name="Special Rules" typeId="d333-0006-333--333-">N/A</characteristic></characteristics></profile><profile name="Standard Armoured Battlegroup Summary" typeId="d3333333-3333-3333-3333-333333333333" typeName="Battle Group Summary" hidden="false" id="4bbf-0ab4-a111-c290"><characteristics><characteristic name="Optional Infantry" typeId="d333-0002-333--333-">Max 4BR</characteristic><characteristic name="Optional Characters" typeId="d333-0003-333--333-">None Allowed</characteristic><characteristic name="Optional Armoured" typeId="d333-0004-333--333-">Max 8BR</characteristic><characteristic name="Optional Flyers" typeId="d333-0005-333--333-">Max 6BR</characteristic><characteristic name="Special Rules" typeId="d333-0006-333--333-">Requisite Tank Commander</characteristic></characteristics></profile><profile name="Officer - UNSC Army Command Unit" typeId="64a0-7713-dd08-5a9d" typeName="Infantry profile" hidden="false" id="833a-7f9a-8dd3-fa7d"><characteristics><characteristic name="Elements" typeId="1c7b-2321-f006-d674">1</characteristic><characteristic name="Type" typeId="3042-33d5-e5ca-996e">CHA INF</characteristic><characteristic name="Build Rating" typeId="c2f2-7f0a-32f4-37b7">2</characteristic><characteristic name="Move" typeId="a71c-3460-0bd5-85d1">6/9”</characteristic><characteristic name="React" typeId="8199-6003-2847-9797">6/8</characteristic><characteristic name="Soak" typeId="8f99-9d90-0ee7-5d9e">0</characteristic><characteristic name="Melee" typeId="7e67-d86f-5377-b64e">2</characteristic><characteristic name="Damage" typeId="7543-31e5-03f6-f160">5</characteristic><characteristic name="Unit Loadouts" typeId="45af-dd89-bc47-d2af">Attachment (INF)
-Battle Hardened (1)
-Commanding Presence (12")
-Heroic Save (3+)</characteristic><characteristic name="Special Rules" typeId="a5f8-0e11-a6fb-7a7e">Communications Specialist</characteristic></characteristics></profile><profile name="Riflemen - UNSC Army Infantry Unit" typeId="64a0-7713-dd08-5a9d" typeName="Infantry profile" hidden="false" id="fb4c-a246-a334-a0b0"><characteristics><characteristic name="Elements" typeId="1c7b-2321-f006-d674">4</characteristic><characteristic name="Type" typeId="3042-33d5-e5ca-996e">INF</characteristic><characteristic name="Build Rating" typeId="c2f2-7f0a-32f4-37b7">1</characteristic><characteristic name="Move" typeId="a71c-3460-0bd5-85d1">6/9”</characteristic><characteristic name="React" typeId="8199-6003-2847-9797">8/10</characteristic><characteristic name="Soak" typeId="8f99-9d90-0ee7-5d9e">0</characteristic><characteristic name="Melee" typeId="7e67-d86f-5377-b64e">1</characteristic><characteristic name="Damage" typeId="7543-31e5-03f6-f160">4</characteristic><characteristic name="Unit Loadouts" typeId="45af-dd89-bc47-d2af" /><characteristic name="Special Rules" typeId="a5f8-0e11-a6fb-7a7e" /></characteristics></profile><profile name="Marines - Combat-Assault Team" typeId="64a0-7713-dd08-5a9d" typeName="Infantry profile" hidden="false" id="e2f1-bd1f-6b77-2a89"><characteristics><characteristic name="Elements" typeId="1c7b-2321-f006-d674">4</characteristic><characteristic name="Type" typeId="3042-33d5-e5ca-996e">INF</characteristic><characteristic name="Build Rating" typeId="c2f2-7f0a-32f4-37b7">2</characteristic><characteristic name="Move" typeId="a71c-3460-0bd5-85d1">6/9”</characteristic><characteristic name="React" typeId="8199-6003-2847-9797">7/8</characteristic><characteristic name="Soak" typeId="8f99-9d90-0ee7-5d9e">0</characteristic><characteristic name="Melee" typeId="7e67-d86f-5377-b64e">2</characteristic><characteristic name="Damage" typeId="7543-31e5-03f6-f160">4</characteristic><characteristic name="Unit Loadouts" typeId="45af-dd89-bc47-d2af">Heroic Save (5+)</characteristic><characteristic name="Special Rules" typeId="a5f8-0e11-a6fb-7a7e">Crash Training</characteristic></characteristics></profile><profile name="Fire Support - UNSC Army Weapons Unit" typeId="64a0-7713-dd08-5a9d" typeName="Infantry profile" hidden="false" id="6b42-718c-80d0-1442"><characteristics><characteristic name="Elements" typeId="1c7b-2321-f006-d674">4</characteristic><characteristic name="Type" typeId="3042-33d5-e5ca-996e">INF</characteristic><characteristic name="Build Rating" typeId="c2f2-7f0a-32f4-37b7">2</characteristic><characteristic name="Move" typeId="a71c-3460-0bd5-85d1">6/9”</characteristic><characteristic name="React" typeId="8199-6003-2847-9797">8/9</characteristic><characteristic name="Soak" typeId="8f99-9d90-0ee7-5d9e">0</characteristic><characteristic name="Melee" typeId="7e67-d86f-5377-b64e">1</characteristic><characteristic name="Damage" typeId="7543-31e5-03f6-f160">4</characteristic><characteristic name="Unit Loadouts" typeId="45af-dd89-bc47-d2af">Active Overwatch</characteristic><characteristic name="Special Rules" typeId="a5f8-0e11-a6fb-7a7e" /></characteristics></profile><profile name="Corporal - UNSC Army Riflemen Team Leader" typeId="64a0-7713-dd08-5a9d" typeName="Infantry profile" hidden="false" id="d2bf-7a91-7810-36a2"><characteristics><characteristic name="Elements" typeId="1c7b-2321-f006-d674">1</characteristic><characteristic name="Type" typeId="3042-33d5-e5ca-996e">UPG INF</characteristic><characteristic name="Build Rating" typeId="c2f2-7f0a-32f4-37b7">0</characteristic><characteristic name="Move" typeId="a71c-3460-0bd5-85d1">6/9”</characteristic><characteristic name="React" typeId="8199-6003-2847-9797">7/9</characteristic><characteristic name="Soak" typeId="8f99-9d90-0ee7-5d9e">0</characteristic><characteristic name="Melee" typeId="7e67-d86f-5377-b64e">1</characteristic><characteristic name="Damage" typeId="7543-31e5-03f6-f160">4</characteristic><characteristic name="Unit Loadouts" typeId="45af-dd89-bc47-d2af">Heroic Save (5+)</characteristic><characteristic name="Special Rules" typeId="a5f8-0e11-a6fb-7a7e" /></characteristics></profile><profile name="Small Arms" typeId="6c7a-4fe3-9ca0-168a" typeName="Unit Weapons" hidden="false" id="6fef-c481-70f2-56c9"><characteristics><characteristic name="Range" typeId="b105-0b2d-c20d-2f77">10/20”</characteristic><characteristic name="Arc" typeId="dc58-10d6-a1f0-3f09">ALL</characteristic><characteristic name="AP" typeId="b639-e494-578f-979d">4</characteristic><characteristic name="AT" typeId="9217-7144-1e94-683d">2</characteristic><characteristic name="AA" typeId="70d2-0215-d018-d05e">3</characteristic><characteristic name="Weapon Loadouts" typeId="7758-d23e-b312-134e">Suppression (+1): Add 1 to all enemy Suppression Tests.</characteristic></characteristics></profile><profile name="Small Arms" typeId="6c7a-4fe3-9ca0-168a" typeName="Unit Weapons" hidden="false" id="c16c-3e2e-a9c0-4d3a"><characteristics><characteristic name="Range" typeId="b105-0b2d-c20d-2f77">10/20”</characteristic><characteristic name="Arc" typeId="dc58-10d6-a1f0-3f09">ALL</characteristic><characteristic name="AP" typeId="b639-e494-578f-979d">3</characteristic><characteristic name="AT" typeId="9217-7144-1e94-683d">1</characteristic><characteristic name="AA" typeId="70d2-0215-d018-d05e">2</characteristic><characteristic name="Weapon Loadouts" typeId="7758-d23e-b312-134e">Suppression (+1): Add 1 to all enemy Suppression Tests.</characteristic></characteristics></profile><profile name="Small Arms" typeId="6c7a-4fe3-9ca0-168a" typeName="Unit Weapons" hidden="false" id="5c7b-472b-0644-a4ef"><characteristics><characteristic name="Range" typeId="b105-0b2d-c20d-2f77">12/18”</characteristic><characteristic name="Arc" typeId="dc58-10d6-a1f0-3f09">ALL</characteristic><characteristic name="AP" typeId="b639-e494-578f-979d">4</characteristic><characteristic name="AT" typeId="9217-7144-1e94-683d">2</characteristic><characteristic name="AA" typeId="70d2-0215-d018-d05e">2</characteristic><characteristic name="Weapon Loadouts" typeId="7758-d23e-b312-134e">Limited Range: All Long Range attacks are counted as firing into Cover that is 2 Levels higher when determining Firepower Rating.
-Point Blank: Gain +1 Firepower Rating shooting at Short Range.
-Suppression (+1): Add 1 to all enemy Suppression Tests.</characteristic></characteristics></profile><profile name="Small Arms" typeId="6c7a-4fe3-9ca0-168a" typeName="Unit Weapons" hidden="false" id="c7a1-541e-88b0-c0de"><characteristics><characteristic name="Range" typeId="b105-0b2d-c20d-2f77">10/20”</characteristic><characteristic name="Arc" typeId="dc58-10d6-a1f0-3f09">ALL</characteristic><characteristic name="AP" typeId="b639-e494-578f-979d">4</characteristic><characteristic name="AT" typeId="9217-7144-1e94-683d">1</characteristic><characteristic name="AA" typeId="70d2-0215-d018-d05e">3</characteristic><characteristic name="Weapon Loadouts" typeId="7758-d23e-b312-134e">Suppression (+1): Add 1 to all enemy Suppression Tests.</characteristic></characteristics></profile><profile name="Frag Grenades" typeId="6c7a-4fe3-9ca0-168a" typeName="Unit Weapons" hidden="false" id="9382-8533-cc84-2df0"><characteristics><characteristic name="Range" typeId="b105-0b2d-c20d-2f77">10”/-</characteristic><characteristic name="Arc" typeId="dc58-10d6-a1f0-3f09">ALL</characteristic><characteristic name="AP" typeId="b639-e494-578f-979d">3</characteristic><characteristic name="AT" typeId="9217-7144-1e94-683d">1</characteristic><characteristic name="AA" typeId="70d2-0215-d018-d05e">0</characteristic><characteristic name="Weapon Loadouts" typeId="7758-d23e-b312-134e">Blast: Ignore Terrain when determining Firepower Rating.
-Cooldown: May only fire once per Game Turn.</characteristic></characteristics></profile><profile name="Frag Grenades" typeId="6c7a-4fe3-9ca0-168a" typeName="Unit Weapons" hidden="false" id="5b5c-4386-c766-88ea"><characteristics><characteristic name="Range" typeId="b105-0b2d-c20d-2f77">10”/-</characteristic><characteristic name="Arc" typeId="dc58-10d6-a1f0-3f09">ALL</characteristic><characteristic name="AP" typeId="b639-e494-578f-979d">4</characteristic><characteristic name="AT" typeId="9217-7144-1e94-683d">2</characteristic><characteristic name="AA" typeId="70d2-0215-d018-d05e">0</characteristic><characteristic name="Weapon Loadouts" typeId="7758-d23e-b312-134e">Blast: Ignore Terrain when determining Firepower Rating.
-Cooldown: May only fire once per Game Turn.</characteristic></characteristics></profile><profile name="Rocket Launchers" typeId="6c7a-4fe3-9ca0-168a" typeName="Unit Weapons" hidden="false" id="d667-63b4-52eb-2f62"><characteristics><characteristic name="Range" typeId="b105-0b2d-c20d-2f77">12/24”</characteristic><characteristic name="Arc" typeId="dc58-10d6-a1f0-3f09">ALL</characteristic><characteristic name="AP" typeId="b639-e494-578f-979d">1</characteristic><characteristic name="AT" typeId="9217-7144-1e94-683d">6</characteristic><characteristic name="AA" typeId="70d2-0215-d018-d05e">4</characteristic><characteristic name="Weapon Loadouts" typeId="7758-d23e-b312-134e">Lock On: Gain +1 Firepower Rating when firing at Long Range.
-Devastating (FLY): Gain +1 Firepower Rating shooting at Flying Elements.</characteristic></characteristics></profile><profile name="Heavy Machine Gun" typeId="6c7a-4fe3-9ca0-168a" typeName="Unit Weapons" hidden="false" id="5ea6-31f9-51f8-0f2c"><characteristics><characteristic name="Range" typeId="b105-0b2d-c20d-2f77">10/20”</characteristic><characteristic name="Arc" typeId="dc58-10d6-a1f0-3f09">ALL</characteristic><characteristic name="AP" typeId="b639-e494-578f-979d">6</characteristic><characteristic name="AT" typeId="9217-7144-1e94-683d">1</characteristic><characteristic name="AA" typeId="70d2-0215-d018-d05e">3</characteristic><characteristic name="Weapon Loadouts" typeId="7758-d23e-b312-134e">Move or Fire: Element gains a Cooldown Token when it moves.
-Suppression (+2): Add 2 to all enemy Suppression Tests.</characteristic></characteristics></profile></sharedProfiles></catalogue>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue library="false" id="5744-UNSC-c952" name="UNSC_Ground_Forces" gameSystemId="sys-6399-a82f-f411-a347" gameSystemRevision="1" revision="1" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <selectionEntries>
+    <selectionEntry type="unit" import="true" name="LIEUTENANT COLONEL - GENERIC COMMANDER" hidden="false" id="2e55-c546-5d35-e7a8">
+      <categoryLinks>
+        <categoryLink targetId="1d19-aba0-3ac5-ad1e" id="3d06-5a22-5d36-a0bd" primary="true" name="Force Commander"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="Lieutenant Colonel - Generic Commander" typeId="d1111111-1111-1111-1111-111111111111" typeName="Force Commander" hidden="false" id="64bc-f3b9-74bf-93d8">
+          <characteristics>
+            <characteristic name="Total Order Dice" typeId="d111-0003-111--111-">3</characteristic>
+            <characteristic name="Order Dice Squares" typeId="d111-0004-111--111-">3</characteristic>
+            <characteristic name="General Order Dice Squares" typeId="d111-0005-111--111-">0</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Mark Your Target:" typeId="d2222222-2222-2222-2222-222222222222" typeName="Commander Order" hidden="false" id="ec39-2800-6bdc-d13a">
+          <characteristics>
+            <characteristic name="Required Icon" typeId="51d8-d512-a091-79d7">Attack</characteristic>
+            <characteristic name="Effect" typeId="d222-0003-222--222-">Once this Order has been issued the UNSC player may add 2 additional Halo Dice to their Attack Dice Pool (including Melee).
+This Order must be issued prior to any Attack being made.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Take Cover:" typeId="d2222222-2222-2222-2222-222222222222" typeName="Commander Order" hidden="false" id="53aa-b781-bce8-e3ca">
+          <characteristics>
+            <characteristic name="Required Icon" typeId="51d8-d512-a091-79d7">Defence</characteristic>
+            <characteristic name="Effect" typeId="d222-0003-222--222-">Once this Order has been issued the player may improve the Cover Level of a target Infantry Unit by 1 Level, up to a maximum of
+Heavy Cover. In the case of Armoured or Flying Vehicles improve a Unit’s Soak statistic by 2. This Order must be issued prior to an enemy’s Firing Action
+taking place.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Stay Sharp:" typeId="d2222222-2222-2222-2222-222222222222" typeName="Commander Order" hidden="false" id="af2e-e1de-a2db-f637">
+          <characteristics>
+            <characteristic name="Required Icon" typeId="51d8-d512-a091-79d7">Command</characteristic>
+            <characteristic name="Effect" typeId="d222-0003-222--222-">Once this Order has been issued the player may add 2 to a Unit’s Reaction Fire result. This Order must be issued prior to any Reaction
+Fire Test being made</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Not One Step Back!:" typeId="d18e-1b18-bf35-2845" typeName="Commander Unique Ability" hidden="false" id="6656-ddb4-8bbb-ed18">
+          <characteristics>
+            <characteristic name="Required Icon" typeId="c6f2-52f3-ee6a-60c1">2 Command</characteristic>
+            <characteristic name="Effect" typeId="ff85-a3b4-b61b-9ed2">Once per Game Turn, a UNSC Force Commander can select one UNSC Infantry Unit to remove an Activation Token. That Unit can then be selected to
+Activate or React later during the game turn. This Order must be issued during a UNSC Player’s Unit Activation.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name="pts" typeId="points" value="0"/>
+        <cost name="BR" typeId="Build Rating" value="0"/>
+        <cost name="CHA" typeId="Character" value="0"/>
+        <cost name="INF BR" typeId="7ada-7046-0588-6b62" value="0"/>
+        <cost name="ARM BR" typeId="8bde-fb02-2c4d-15ad" value="0"/>
+        <cost name="FLY BR" typeId="ec76-a9ce-7551-737e" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="UNSC Standard Armoured Battlegroup" hidden="false" id="190c-c542-d6a9-c655">
+      <categoryLinks>
+        <categoryLink targetId="2622-52fa-29f7-96bb" id="8311-882e-fcdc-c9c1" primary="true" name="Standard Battle Groups"/>
+      </categoryLinks>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="UNSC Mechanised Infantry Battlegroup" hidden="false" id="2db3-8915-2519-f394">
+      <categoryLinks>
+        <categoryLink name="Standard Battle Groups" hidden="false" id="433e-3417-0609-59d9" targetId="2622-52fa-29f7-96bb" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry type="unit" import="true" name="1. Required units:" hidden="false" id="be72-7e28-42f6-b93c" collective="false" defaultAmount="1">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="0699-4e7e-7ef4-e488-max-min"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0699-4e7e-7ef4-e488-max-max"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5573-7de5-9b3f-c45e"/>
+          </constraints>
+          <selectionEntryGroups>
+            <selectionEntryGroup name="1.1 Required Command Unit" id="93aa-90bc-3a8e-a146" hidden="false" collective="false" defaultSelectionEntryId="074e-8d96-f012-b827">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="false" id="cb29-07e9-275f-f3d5" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="false" id="578d-5dce-0ba3-9a20" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+              </constraints>
+              <entryLinks>
+                <entryLink import="true" name="Officer - UNSC Army Command Unit" hidden="false" id="074e-8d96-f012-b827" targetId="bf34-cfad-df84-45c0" type="selectionEntry">
+                  <categoryLinks>
+                    <categoryLink targetId="a1111111-1111-1111-1111-111111111111" id="9251-aeb8-f3f7-ffa6" primary="true" name="Character Units"/>
+                    <categoryLink targetId="870a-81aa-e07c-3d01" id="d300-7107-1682-f43c" primary="false" name="Infantry Units"/>
+                  </categoryLinks>
+                </entryLink>
+              </entryLinks>
+            </selectionEntryGroup>
+            <selectionEntryGroup name="1.3 Required Infantry Unit" id="6e64-7c5d-c06a-27ab" hidden="false" collective="false" defaultSelectionEntryId="2e4b-f923-e905-b32f">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="false" id="5ef3-a7b1-f889-7292" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="false" id="5e7f-a50e-2d08-1c53" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+              </constraints>
+              <entryLinks>
+                <entryLink import="true" name="Riflemen - UNSC Army Infantry Unit" hidden="false" id="819e-24f8-78a1-8091" targetId="ff45-8f39-1567-541b" type="selectionEntry" sortIndex="1">
+                  <categoryLinks>
+                    <categoryLink targetId="870a-81aa-e07c-3d01" id="9c59-338e-f6e0-fc31" primary="true" name="Infantry Units"/>
+                  </categoryLinks>
+                </entryLink>
+                <entryLink import="true" name="Fire Support - UNSC Army Weapons Unit" hidden="false" id="976b-8e06-24ac-d249" targetId="0732-8041-d131-50bb" type="selectionEntry" sortIndex="2">
+                  <categoryLinks>
+                    <categoryLink targetId="870a-81aa-e07c-3d01" id="b2a2-646a-8427-4383" primary="true" name="Infantry Units"/>
+                  </categoryLinks>
+                </entryLink>
+                <entryLink import="true" name="Marines - Combat-Assault Team" hidden="false" id="2d16-24fb-ea7b-ebd8" targetId="9745-704b-d49d-a2e6" type="selectionEntry" sortIndex="3">
+                  <categoryLinks>
+                    <categoryLink targetId="870a-81aa-e07c-3d01" id="ed86-23d0-24c0-21fa" primary="true" name="Infantry Units"/>
+                  </categoryLinks>
+                </entryLink>
+              </entryLinks>
+            </selectionEntryGroup>
+            <selectionEntryGroup name="1.2 Required Infantry Unit" id="ea0d-151f-03de-b261" hidden="false" collective="false" defaultSelectionEntryId="2e4b-f923-e905-b32f">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="false" id="5f5e-9a7d-5c1a-2ce1" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="false" id="c159-1ade-ae2e-8296" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+              </constraints>
+              <entryLinks>
+                <entryLink import="true" name="Riflemen - UNSC Army Infantry Unit" hidden="false" id="7cdf-36ae-c2e7-213b" targetId="ff45-8f39-1567-541b" type="selectionEntry">
+                  <categoryLinks>
+                    <categoryLink targetId="870a-81aa-e07c-3d01" id="fd20-c351-33b5-74a2" primary="true" name="Infantry Units"/>
+                  </categoryLinks>
+                </entryLink>
+              </entryLinks>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+          <costs>
+            <cost name="C" costTypeId="Character" value="0"/>
+            <cost name="BR" costTypeId="Build Rating" value="0"/>
+            <cost name="pts" costTypeId="points" value="0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry type="unit" import="true" name="2. Optional units:" hidden="false" id="38e7-3d8d-e5b2-339b" collective="false">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="da13-4611-de44-deaa-min"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="da13-4611-de44-deaa-max"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e528-1da8-1c0e-3f72"/>
+          </constraints>
+          <selectionEntryGroups>
+            <selectionEntryGroup name="2.1 Units" id="155d-9609-ba10-2916" hidden="false" collective="false" defaultSelectionEntryId="074e-8d96-f012-b827">
+              <constraints>
+                <constraint type="max" value="1" field="Character" scope="parent" shared="false" id="f4e2-e198-c150-7043" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                <constraint type="max" value="6" field="7ada-7046-0588-6b62" scope="parent" shared="false" id="b9b1-ffb7-09ba-b107" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                <constraint type="max" value="8" field="8bde-fb02-2c4d-15ad" scope="parent" shared="false" id="a740-9a76-c277-b195" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                <constraint type="max" value="6" field="ec76-a9ce-7551-737e" scope="parent" shared="false" id="dc88-93e3-aa41-4af1" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+              </constraints>
+              <entryLinks>
+                <entryLink import="true" name="Officer - UNSC Army Command Unit" hidden="false" id="02f7-4211-010b-8174" targetId="bf34-cfad-df84-45c0" type="selectionEntry">
+                  <categoryLinks>
+                    <categoryLink targetId="a1111111-1111-1111-1111-111111111111" id="2506-efcf-d8d5-4bf5" primary="true" name="Character Units"/>
+                    <categoryLink targetId="870a-81aa-e07c-3d01" id="ea09-acfd-abbc-fb3d" primary="false" name="Infantry Units"/>
+                  </categoryLinks>
+                </entryLink>
+                <entryLink import="true" name="Riflemen - UNSC Army Infantry Unit" hidden="false" id="2943-867b-2de1-28bb" targetId="ff45-8f39-1567-541b" type="selectionEntry">
+                  <categoryLinks>
+                    <categoryLink targetId="870a-81aa-e07c-3d01" id="4f1f-e4a9-a837-b6f1" primary="true" name="Infantry Units"/>
+                  </categoryLinks>
+                </entryLink>
+                <entryLink import="true" name="Marines - Combat-Assault Team" hidden="false" id="da18-79bf-36e0-66cb" targetId="9745-704b-d49d-a2e6" type="selectionEntry">
+                  <categoryLinks>
+                    <categoryLink targetId="870a-81aa-e07c-3d01" id="71a1-667e-140a-134e" primary="true" name="Infantry Units"/>
+                  </categoryLinks>
+                </entryLink>
+                <entryLink import="true" name="Fire Support - UNSC Army Weapons Unit" hidden="false" id="9458-7864-fc5b-a13c" targetId="0732-8041-d131-50bb" type="selectionEntry">
+                  <categoryLinks>
+                    <categoryLink targetId="870a-81aa-e07c-3d01" id="092d-907f-6a85-6e0f" primary="true" name="Infantry Units"/>
+                  </categoryLinks>
+                </entryLink>
+              </entryLinks>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+          <costs>
+            <cost name="C" costTypeId="Character" value="0"/>
+            <cost name="BR" costTypeId="Build Rating" value="0"/>
+            <cost name="pts" costTypeId="points" value="0"/>
+          </costs>
+          <profiles>
+            <profile name="UNSC Mechanised Infantry Battlegroup" typeId="d3333333-3333-3333-3333-333333333333" typeName="Battle Group Summary" hidden="false" id="d8d5-b7c9-bb8d-81e1">
+              <characteristics>
+                <characteristic name="Optional Infantry" typeId="d333-0002-333--333-">Max 6BR</characteristic>
+                <characteristic name="Optional Characters" typeId="d333-0003-333--333-">1</characteristic>
+                <characteristic name="Optional Armoured" typeId="d333-0004-333--333-">Max 8BR</characteristic>
+                <characteristic name="Optional Flyers" typeId="d333-0005-333--333-">Max 6BR</characteristic>
+                <characteristic name="Special Rules" typeId="d333-0006-333--333-">N/A</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
+      </selectionEntries>
+      <profiles>
+        <profile name="UNSC Mechanised Infantry Battlegroup" typeId="d3333333-3333-3333-3333-333333333333" typeName="Battle Group Summary" hidden="false" id="7ffa-0db5-9df1-c290">
+          <characteristics>
+            <characteristic name="Optional Infantry" typeId="d333-0002-333--333-">Max 6BR</characteristic>
+            <characteristic name="Optional Characters" typeId="d333-0003-333--333-">1</characteristic>
+            <characteristic name="Optional Armoured" typeId="d333-0004-333--333-">Max 8BR</characteristic>
+            <characteristic name="Optional Flyers" typeId="d333-0005-333--333-">Max 6BR</characteristic>
+            <characteristic name="Special Rules" typeId="d333-0006-333--333-">N/A</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+  </selectionEntries>
+  <sharedSelectionEntries>
+    <selectionEntry type="unit" import="true" name="Officer - UNSC Army Command Unit" hidden="false" id="bf34-cfad-df84-45c0">
+      <categoryLinks>
+        <categoryLink targetId="a1111111-1111-1111-1111-111111111111" id="e0a6-a912-6dee-a040" primary="true" name="Character Units"/>
+        <categoryLink targetId="870a-81aa-e07c-3d01" id="01ae-868d-8681-a805" primary="false" name="Infantry Units"/>
+      </categoryLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="80"/>
+        <cost name="BR" typeId="Build Rating" value="2"/>
+        <cost name="CHA" typeId="Character" value="1"/>
+        <cost name="INF BR" typeId="7ada-7046-0588-6b62" value="2"/>
+        <cost name="ARM BR" typeId="8bde-fb02-2c4d-15ad" value="0"/>
+        <cost name="FLY BR" typeId="ec76-a9ce-7551-737e" value="0"/>
+      </costs>
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Elements" hidden="false" id="c8a7-f0d1-d62c-a020">
+          <profiles>
+            <profile name="Officer - UNSC Army Command Unit" typeId="64a0-7713-dd08-5a9d" typeName="Infantry profile" hidden="false" id="833a-7f9a-8dd3-fa7d">
+              <characteristics>
+                <characteristic name="Elements" typeId="1c7b-2321-f006-d674">1</characteristic>
+                <characteristic name="Type" typeId="3042-33d5-e5ca-996e">CHA INF</characteristic>
+                <characteristic name="Build Rating" typeId="c2f2-7f0a-32f4-37b7">2</characteristic>
+                <characteristic name="Move" typeId="a71c-3460-0bd5-85d1">6/9”</characteristic>
+                <characteristic name="React" typeId="8199-6003-2847-9797">6/8</characteristic>
+                <characteristic name="Soak" typeId="8f99-9d90-0ee7-5d9e">0</characteristic>
+                <characteristic name="Melee" typeId="7e67-d86f-5377-b64e">2</characteristic>
+                <characteristic name="Damage" typeId="7543-31e5-03f6-f160">5</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink name="Heroic Save (3+)" id="off-r4" hidden="false" type="rule" targetId="1669-a5b8-3f86-7326"/>
+            <infoLink name="Communications Specialist" id="off-r5" hidden="false" type="rule" targetId="f396-9aca-a891-aa39"/>
+            <infoLink name="Commanding Presence (12&quot;)" id="off-r3" hidden="false" type="rule" targetId="ecac-9a86-b929-4466"/>
+            <infoLink name="Battle Hardened (1)" id="off-r2" hidden="false" type="rule" targetId="fb0f-edeb-4ecf-3315"/>
+            <infoLink name="Attachment (INF)" id="off-r1" hidden="false" type="rule" targetId="7f8a-e527-bd71-af6f"/>
+          </infoLinks>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Weapons" hidden="false" id="e0b3-953c-41ad-a21a">
+          <infoLinks>
+            <infoLink name="Frag Grenades" id="5eb7-f047-17e2-dfb0" hidden="false" type="profile" targetId="9382-8533-cc84-2df0"/>
+            <infoLink name="Small Arms" id="1c74-d46d-59ca-b546" hidden="false" type="profile" targetId="6fef-c481-70f2-56c9"/>
+          </infoLinks>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Marines - Combat-Assault Team" hidden="false" id="9745-704b-d49d-a2e6">
+      <categoryLinks>
+        <categoryLink targetId="870a-81aa-e07c-3d01" id="118e-46ab-4153-a854" primary="true" name="Infantry Units"/>
+      </categoryLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="150"/>
+        <cost name="BR" typeId="Build Rating" value="2"/>
+        <cost name="CHA" typeId="Character" value="0"/>
+        <cost name="INF BR" typeId="7ada-7046-0588-6b62" value="2"/>
+        <cost name="ARM BR" typeId="8bde-fb02-2c4d-15ad" value="0"/>
+        <cost name="FLY BR" typeId="ec76-a9ce-7551-737e" value="0"/>
+      </costs>
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Elements" hidden="false" id="b43e-7be5-602b-119f">
+          <profiles>
+            <profile name="Marines - Combat-Assault Team" typeId="64a0-7713-dd08-5a9d" typeName="Infantry profile" hidden="false" id="5417-de83-d8ed-584e">
+              <characteristics>
+                <characteristic name="Elements" typeId="1c7b-2321-f006-d674">1</characteristic>
+                <characteristic name="Type" typeId="3042-33d5-e5ca-996e">INF</characteristic>
+                <characteristic name="Build Rating" typeId="c2f2-7f0a-32f4-37b7">2</characteristic>
+                <characteristic name="Move" typeId="a71c-3460-0bd5-85d1">6/9”</characteristic>
+                <characteristic name="React" typeId="8199-6003-2847-9797">6/8</characteristic>
+                <characteristic name="Soak" typeId="8f99-9d90-0ee7-5d9e">0</characteristic>
+                <characteristic name="Melee" typeId="7e67-d86f-5377-b64e">2</characteristic>
+                <characteristic name="Damage" typeId="7543-31e5-03f6-f160">5</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink name="Crash Training" id="mar-r2" hidden="false" type="rule" targetId="51e3-366f-2474-df4d"/>
+            <infoLink name="Heroic Save (5+)" id="mar-r1" hidden="false" type="rule" targetId="ffc8-e403-7311-4d8b"/>
+          </infoLinks>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Weapons" hidden="false" id="f280-3cc9-99c5-1b9d">
+          <infoLinks>
+            <infoLink name="Frag Grenades" id="325e-3eeb-9163-5463" hidden="false" type="profile" targetId="9382-8533-cc84-2df0"/>
+            <infoLink name="Small Arms" id="6bbb-3b5a-9200-1b5e" hidden="false" type="profile" targetId="6fef-c481-70f2-56c9"/>
+          </infoLinks>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Riflemen - UNSC Army Infantry Unit" hidden="false" id="ff45-8f39-1567-541b">
+      <categoryLinks>
+        <categoryLink targetId="870a-81aa-e07c-3d01" id="7bef-02e4-63f4-4e0c" primary="true" name="Infantry Units"/>
+      </categoryLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="80"/>
+        <cost name="BR" typeId="Build Rating" value="1"/>
+        <cost name="CHA" typeId="Character" value="0"/>
+        <cost name="INF BR" typeId="7ada-7046-0588-6b62" value="1"/>
+        <cost name="ARM BR" typeId="8bde-fb02-2c4d-15ad" value="0"/>
+        <cost name="FLY BR" typeId="ec76-a9ce-7551-737e" value="0"/>
+      </costs>
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Elements" hidden="false" id="5fd3-ed78-e76a-10ca">
+          <profiles>
+            <profile name="Riflemen - UNSC Army Infantry Unit" typeId="64a0-7713-dd08-5a9d" typeName="Infantry profile" hidden="false" id="1355-ac6c-d789-5843">
+              <characteristics>
+                <characteristic name="Elements" typeId="1c7b-2321-f006-d674">1</characteristic>
+                <characteristic name="Type" typeId="3042-33d5-e5ca-996e">INF</characteristic>
+                <characteristic name="Build Rating" typeId="c2f2-7f0a-32f4-37b7">2</characteristic>
+                <characteristic name="Move" typeId="a71c-3460-0bd5-85d1">6/9”</characteristic>
+                <characteristic name="React" typeId="8199-6003-2847-9797">6/8</characteristic>
+                <characteristic name="Soak" typeId="8f99-9d90-0ee7-5d9e">0</characteristic>
+                <characteristic name="Melee" typeId="7e67-d86f-5377-b64e">2</characteristic>
+                <characteristic name="Damage" typeId="7543-31e5-03f6-f160">5</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Weapons" hidden="false" id="f282-2356-b6d5-af30">
+          <infoLinks>
+            <infoLink name="Frag Grenades" id="ff7e-eb05-593d-e816" hidden="false" type="profile" targetId="9382-8533-cc84-2df0"/>
+            <infoLink name="Small Arms" id="9012-8595-9bbd-9e44" hidden="false" type="profile" targetId="6fef-c481-70f2-56c9"/>
+          </infoLinks>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Fire Support - UNSC Army Weapons Unit" hidden="false" id="0732-8041-d131-50bb">
+      <categoryLinks>
+        <categoryLink targetId="870a-81aa-e07c-3d01" id="056e-e237-3470-4d2f" primary="true" name="Infantry Units"/>
+      </categoryLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="120"/>
+        <cost name="BR" typeId="Build Rating" value="2"/>
+        <cost name="CHA" typeId="Character" value="0"/>
+        <cost name="INF BR" typeId="7ada-7046-0588-6b62" value="2"/>
+        <cost name="ARM BR" typeId="8bde-fb02-2c4d-15ad" value="0"/>
+        <cost name="FLY BR" typeId="ec76-a9ce-7551-737e" value="0"/>
+      </costs>
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Weapons" hidden="false" id="b289-5c62-3b29-a8a0">
+          <infoLinks>
+            <infoLink name="Frag Grenades" id="fs-fg" hidden="false" type="profile" targetId="9382-8533-cc84-2df0"/>
+            <infoLink name="Small Arms" id="aeb7-756a-1d12-6bc2" hidden="false" type="profile" targetId="6fef-c481-70f2-56c9"/>
+            <infoLink name="Limited Range" id="efd4-703a-9cb1-a688" hidden="false" type="rule" targetId="3b90-5b6b-7745-8d94"/>
+          </infoLinks>
+          <selectionEntryGroups>
+            <selectionEntryGroup name="Weapons Upgrade" id="fs-upg-weaponteam" hidden="false" collective="false">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="false" id="fs-upg-weaponteam-min" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="false" id="fs-upg-weaponteam-max" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+              </constraints>
+              <selectionEntries>
+                <selectionEntry type="upgrade" import="true" name="2 Rocket Launchers" hidden="false" id="fs-2rl">
+                  <costs>
+                    <cost name="pts" typeId="points" value="0"/>
+                    <cost name="BR" typeId="Build Rating" value="0"/>
+                    <cost name="CHA" typeId="Character" value="0"/>
+                    <cost name="INF BR" typeId="7ada-7046-0588-6b62" value="0"/>
+                    <cost name="ARM BR" typeId="8bde-fb02-2c4d-15ad" value="0"/>
+                    <cost name="FLY BR" typeId="ec76-a9ce-7551-737e" value="0"/>
+                  </costs>
+                  <infoLinks>
+                    <infoLink name="Rocket Launchers" id="fs-2rl-link" hidden="false" type="profile" targetId="d667-63b4-52eb-2f62"/>
+                  </infoLinks>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="2 Heavy Machine Guns" hidden="false" id="fs-2hmg">
+                  <costs>
+                    <cost name="pts" typeId="points" value="0"/>
+                    <cost name="BR" typeId="Build Rating" value="0"/>
+                    <cost name="CHA" typeId="Character" value="0"/>
+                    <cost name="INF BR" typeId="7ada-7046-0588-6b62" value="0"/>
+                    <cost name="ARM BR" typeId="8bde-fb02-2c4d-15ad" value="0"/>
+                    <cost name="FLY BR" typeId="ec76-a9ce-7551-737e" value="0"/>
+                  </costs>
+                  <infoLinks>
+                    <infoLink name="Heavy Machine Gun" id="fs-2hmg-link" hidden="false" type="profile" targetId="1e14-c4c1-2ea5-b81e"/>
+                  </infoLinks>
+                </selectionEntry>
+              </selectionEntries>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Elements" hidden="false" id="40f0-09e6-5024-ab45">
+          <profiles>
+            <profile name="Fire Support - UNSC Army Weapons Unit" typeId="64a0-7713-dd08-5a9d" typeName="Infantry profile" hidden="false" id="4042-bd65-0160-5ca7">
+              <characteristics>
+                <characteristic name="Elements" typeId="1c7b-2321-f006-d674">1</characteristic>
+                <characteristic name="Type" typeId="3042-33d5-e5ca-996e">INF</characteristic>
+                <characteristic name="Build Rating" typeId="c2f2-7f0a-32f4-37b7">2</characteristic>
+                <characteristic name="Move" typeId="a71c-3460-0bd5-85d1">6/9”</characteristic>
+                <characteristic name="React" typeId="8199-6003-2847-9797">6/8</characteristic>
+                <characteristic name="Soak" typeId="8f99-9d90-0ee7-5d9e">0</characteristic>
+                <characteristic name="Melee" typeId="7e67-d86f-5377-b64e">2</characteristic>
+                <characteristic name="Damage" typeId="7543-31e5-03f6-f160">5</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink name="Active Overwatch" id="fs-r1" hidden="false" type="rule" targetId="42e8-f373-e1ef-da14"/>
+          </infoLinks>
+          <selectionEntryGroups>
+            <selectionEntryGroup name="Unit Upgrade" id="fs-upg-leader" hidden="false" collective="false">
+              <constraints>
+                <constraint type="min" value="0" field="selections" scope="parent" shared="false" id="fs-upg-leader-min" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="false" id="fs-upg-leader-max" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+              </constraints>
+              <entryLinks>
+                <entryLink import="true" name="Army Corporal" hidden="false" id="fs-corp-link" targetId="1bb1-2a63-8f74-c0aa" type="selectionEntry"/>
+              </entryLinks>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Army Corporal" hidden="false" id="1bb1-2a63-8f74-c0aa">
+      <categoryLinks>
+        <categoryLink name="Infantry Units" hidden="false" id="corp-inf" targetId="870a-81aa-e07c-3d01" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="10"/>
+        <cost name="BR" typeId="Build Rating" value="0"/>
+        <cost name="CHA" typeId="Character" value="0"/>
+        <cost name="INF BR" typeId="7ada-7046-0588-6b62" value="0"/>
+        <cost name="ARM BR" typeId="8bde-fb02-2c4d-15ad" value="0"/>
+        <cost name="FLY BR" typeId="ec76-a9ce-7551-737e" value="0"/>
+      </costs>
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Elements" hidden="false" id="59ac-2baf-b1a1-27bd">
+          <profiles>
+            <profile name="Army Corporal" typeId="64a0-7713-dd08-5a9d" typeName="Infantry profile" hidden="false" id="97f1-26a1-57d0-89f4">
+              <characteristics>
+                <characteristic name="Elements" typeId="1c7b-2321-f006-d674">1</characteristic>
+                <characteristic name="Type" typeId="3042-33d5-e5ca-996e">INF</characteristic>
+                <characteristic name="Build Rating" typeId="c2f2-7f0a-32f4-37b7">2</characteristic>
+                <characteristic name="Move" typeId="a71c-3460-0bd5-85d1">6/9”</characteristic>
+                <characteristic name="React" typeId="8199-6003-2847-9797">6/8</characteristic>
+                <characteristic name="Soak" typeId="8f99-9d90-0ee7-5d9e">0</characteristic>
+                <characteristic name="Melee" typeId="7e67-d86f-5377-b64e">2</characteristic>
+                <characteristic name="Damage" typeId="7543-31e5-03f6-f160">5</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink name="Heroic Save (5+)" id="corp-r1" hidden="false" type="rule" targetId="ffc8-e403-7311-4d8b"/>
+          </infoLinks>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Weapons" hidden="false" id="74a5-40a6-c131-3ead">
+          <infoLinks>
+            <infoLink name="Frag Grenades" id="corp-fg" hidden="false" type="profile" targetId="9382-8533-cc84-2df0"/>
+            <infoLink name="Small Arms" id="corp-sa" hidden="false" type="profile" targetId="6fef-c481-70f2-56c9"/>
+          </infoLinks>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntry>
+  </sharedSelectionEntries>
+  <sharedRules>
+    <rule name="Suppression (X)" id="e377-b8fd-8965-88b1" hidden="false">
+      <description>Add X to all enemy Suppression Tests.</description>
+    </rule>
+    <rule name="Blast" id="8a02-771a-659e-d0f3" hidden="false">
+      <description>Ignore Terrain when determining Firepower Rating.</description>
+    </rule>
+    <rule name="Cooldown" id="f62b-e162-b4fc-7ef0" hidden="false">
+      <description>May only fire once per Game Turn.</description>
+    </rule>
+    <rule name="Lock On" id="2a64-8fcf-d2f1-f689" hidden="false">
+      <description>Gain +1 Firepower Rating when firing at Long Range.</description>
+    </rule>
+    <rule name="Devastating (FLY)" id="a0fc-d168-257d-d6eb" hidden="false">
+      <description>Gain +1 Firepower Rating shooting at Flying Elements.</description>
+    </rule>
+    <rule name="Move or Fire" id="6593-a21b-2c12-b43c" hidden="false">
+      <description>Element gains a Cooldown Token when it moves.</description>
+    </rule>
+    <rule name="Limited Range" id="3b90-5b6b-7745-8d94" hidden="false">
+      <description>All Long Range attacks are counted as firing into Cover that is 2 Levels higher when determining Firepower Rating.</description>
+    </rule>
+    <rule name="Point Blank" id="f663-466c-d0cf-6652" hidden="false">
+      <description>Gain +1 Firepower Rating shooting at Short Range.</description>
+    </rule>
+    <rule name="Active Overwatch" id="42e8-f373-e1ef-da14" hidden="false">
+      <description>Re-roll failed Reaction Fire Dice. Second result must be accepted.</description>
+    </rule>
+    <rule name="Commanding Presence (12&quot;)" id="ecac-9a86-b929-4466" hidden="false">
+      <description>Increase all friendly Reaction Fire Tests within 12&quot; by 1. Reduce all friendly Suppression Tests within 12&quot; by 1.</description>
+    </rule>
+    <rule name="Heroic Save (5+)" id="ffc8-e403-7311-4d8b" hidden="false">
+      <description>Ignore Damage on a roll of 5 or more.</description>
+    </rule>
+    <rule name="Heroic Save (3+)" id="1669-a5b8-3f86-7326" hidden="false">
+      <description>Ignore Damage on a roll of 3 or more.</description>
+    </rule>
+    <rule name="Battle Hardened (1)" id="fb0f-edeb-4ecf-3315" hidden="false">
+      <description>Re-roll up to 1 failed Melee Attack Dice.</description>
+    </rule>
+    <rule name="Attachment (INF)" id="7f8a-e527-bd71-af6f" hidden="false">
+      <description>This Element may attach to Infantry Units in the same Force, and may be deployed attached to those Units in the same Battle Group.</description>
+    </rule>
+    <rule name="Communications Specialist" id="f396-9aca-a891-aa39" hidden="false">
+      <description>Once per Game Turn, increase the result of a Reaction Fire Test by +2 when within the Commanding Presence Range.</description>
+    </rule>
+    <rule name="Crash Training" id="51e3-366f-2474-df4d" hidden="false">
+      <description>If a transport vehicle is destroyed while this unit is embarked inside, or an Air Support Flyer is destroyed before disembarking this Unit during a Combat Drop Mission, this unit suffers no damage and is deployed as though they disembarked from a transport.</description>
+    </rule>
+    <rule name="Requisite Tank Commander" id="158e-8e5b-ecc5-64b9" hidden="false">
+      <description>The Requisite Tank acts as a Battle Group’s Commander and gains +1 to its React stat, and the Commanding Presence (8&quot;) Loadout for free.</description>
+    </rule>
+  </sharedRules>
+  <sharedProfiles>
+    <profile name="Frag Grenades" typeId="6c7a-4fe3-9ca0-168a" typeName="Unit Weapons" hidden="false" id="9382-8533-cc84-2df0">
+      <characteristics>
+        <characteristic name="Range" typeId="b105-0b2d-c20d-2f77">10”/-</characteristic>
+        <characteristic name="Arc" typeId="dc58-10d6-a1f0-3f09">ALL</characteristic>
+        <characteristic name="AP" typeId="b639-e494-578f-979d">3</characteristic>
+        <characteristic name="AT" typeId="9217-7144-1e94-683d">1</characteristic>
+        <characteristic name="AA" typeId="70d2-0215-d018-d05e">0</characteristic>
+        <characteristic name="Weapon Loadouts" typeId="7758-d23e-b312-134e">Blast: Ignore Terrain when determining Firepower Rating.
+Cooldown: May only fire once per Game Turn.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Small Arms" typeId="6c7a-4fe3-9ca0-168a" typeName="Unit Weapons" hidden="false" id="6fef-c481-70f2-56c9">
+      <characteristics>
+        <characteristic name="Range" typeId="b105-0b2d-c20d-2f77">10/20”</characteristic>
+        <characteristic name="Arc" typeId="dc58-10d6-a1f0-3f09">ALL</characteristic>
+        <characteristic name="AP" typeId="b639-e494-578f-979d">4</characteristic>
+        <characteristic name="AT" typeId="9217-7144-1e94-683d">2</characteristic>
+        <characteristic name="AA" typeId="70d2-0215-d018-d05e">3</characteristic>
+        <characteristic name="Weapon Loadouts" typeId="7758-d23e-b312-134e">Suppression (+1): Add 1 to all enemy Suppression Tests.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Rocket Launchers" typeId="6c7a-4fe3-9ca0-168a" typeName="Unit Weapons" hidden="false" id="d667-63b4-52eb-2f62">
+      <characteristics>
+        <characteristic name="Range" typeId="b105-0b2d-c20d-2f77">12/24”</characteristic>
+        <characteristic name="Arc" typeId="dc58-10d6-a1f0-3f09">ALL</characteristic>
+        <characteristic name="AP" typeId="b639-e494-578f-979d">1</characteristic>
+        <characteristic name="AT" typeId="9217-7144-1e94-683d">6</characteristic>
+        <characteristic name="AA" typeId="70d2-0215-d018-d05e">4</characteristic>
+        <characteristic name="Weapon Loadouts" typeId="7758-d23e-b312-134e">Lock On: Gain +1 Firepower Rating when firing at Long Range
+Devastating (FLY): Gain +1 Firepower Rating shooting at Flying Elements.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Heavy Machine Gun" typeId="6c7a-4fe3-9ca0-168a" typeName="Unit Weapons" hidden="false" id="1e14-c4c1-2ea5-b81e">
+      <characteristics>
+        <characteristic name="Range" typeId="b105-0b2d-c20d-2f77">10/20”</characteristic>
+        <characteristic name="Arc" typeId="dc58-10d6-a1f0-3f09">ALL</characteristic>
+        <characteristic name="AP" typeId="b639-e494-578f-979d">6</characteristic>
+        <characteristic name="AT" typeId="9217-7144-1e94-683d">1</characteristic>
+        <characteristic name="AA" typeId="70d2-0215-d018-d05e">3</characteristic>
+        <characteristic name="Weapon Loadouts" typeId="7758-d23e-b312-134e">Move or Fire: Element gains a Cooldown Token when it moves.
+Suppression (+2): Add 2 to all enemy Suppression Tests.</characteristic>
+      </characteristics>
+    </profile>
+  </sharedProfiles>
+</catalogue>
